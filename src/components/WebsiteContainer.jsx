@@ -2,26 +2,26 @@ import React, { useState } from "react";
 import NavTabs from "./NavBar/NavTabs";
 import Home from "../pages/Home";
 import Projects from "../pages/Projects";
-
-import Contact from "./pages/Contact";
+import ModelComments from "../pages/ModelComments"
+import ContactModelInfo from "../pages/Contact-ModelInfo";
 
 
 import "../App.css";
 
-export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("About Me");
+export default function WebsiteContainer() {
+  const [currentPage, setCurrentPage] = useState("Home");
 
   const renderPage = () => {
-    if (currentPage === "About Me") {
+    if (currentPage === "Home") {
       return <Home />;
     }
-    if (currentPage === "Portfolio") {
+    if (currentPage === "Projects") {
       return <Projects />;
     }
-    if (currentPage === "Contact") {
-      return <Contact />;
+    if (currentPage === "Model Comments") {
+      return <ModelComments />;
     }
-    return <Resume />;
+    return <ContactModelInfo />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);

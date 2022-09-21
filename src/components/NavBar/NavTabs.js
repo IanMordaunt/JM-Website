@@ -5,14 +5,14 @@ import "../../App.css";
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="mainHeader">
-      <h1 className="headerName">Ian Mordaunt</h1>
+      <h1 className="headerName">Jackson Morris</h1>
       <ul className="nav">
         <li className="nav-item">
           <a
-            href="#about me"
-            onClick={() => handlePageChange("About Me")}
+            href="#home"
+            onClick={() => handlePageChange("Home")}
             className={
-              currentPage === "About Me" ? "nav-link active" : "nav-link"
+              currentPage === "Home" ? "nav-link active" : "nav-link"
             }
           >
             About Me
@@ -20,10 +20,10 @@ function NavTabs({ currentPage, handlePageChange }) {
         </li>
         <li className="nav-item">
           <a
-            href="#portfolio"
-            onClick={() => handlePageChange("Portfolio")}
+            href="#projects"
+            onClick={() => handlePageChange("Projects")}
             className={
-              currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+              currentPage === "Projects" ? "nav-link active" : "nav-link"
             }
           >
             Portfolio
@@ -31,20 +31,20 @@ function NavTabs({ currentPage, handlePageChange }) {
         </li>
         <li className="nav-item">
           <a
-            href="#contact"
-            onClick={() => handlePageChange("Contact")}
+            href="#modelComments"
+            onClick={() => handlePageChange("Model Comments")}
             className={
-              currentPage === "Contact" ? "nav-link active" : "nav-link"
+              currentPage === "Model Comments" ? "nav-link active" : "nav-link"
             }
           >
             Contact Me
           </a>
         </li>
         <li className="nav-item">
-          <a href="resume"
-            onClick={() => handlePageChange("Resume")}
+          <a href="contactJacksonAndModelingInfo"
+            onClick={() => handlePageChange("Contact Jackson & Modeling Info")}
             className={
-              currentPage === "Resume" ? "nav-link active" : "nav-link"
+              currentPage === "Contact Jackson & Modeling Info" ? "nav-link active" : "nav-link"
             }
           >
             Resume
