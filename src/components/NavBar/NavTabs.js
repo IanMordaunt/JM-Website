@@ -15,7 +15,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               currentPage === "Home" ? "nav-link active" : "nav-link"
             }
           >
-            About Me
+            Home
           </a>
         </li>
         <li className="nav-item">
@@ -26,7 +26,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               currentPage === "Projects" ? "nav-link active" : "nav-link"
             }
           >
-            Portfolio
+            Projects
           </a>
         </li>
         <li className="nav-item">
@@ -37,7 +37,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               currentPage === "Model Comments" ? "nav-link active" : "nav-link"
             }
           >
-            Contact Me
+            Model Comments
           </a>
         </li>
         <li className="nav-item">
@@ -47,7 +47,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               currentPage === "Contact Jackson & Modeling Info" ? "nav-link active" : "nav-link"
             }
           >
-            Resume
+            Contact Jackson & Modeling Info
           </a>
         </li>
       </ul>
