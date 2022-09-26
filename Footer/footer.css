@@ -1,0 +1,25 @@
+.footer .col-2  p{
+    font-size: 20px;
+   
+}
+
+.footer .col-1  p{
+    font-size: 20px;
+
+}
+
+.footer .col-3 {
+    font-size: 20px;
+}
+
+.footer {
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 16%;
+    text-align: right;
+    
+}
+
+.footer a {
+    color: rgb(188, 67, 19) !important;
+}

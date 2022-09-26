@@ -1,0 +1,89 @@
+
+.modelCommentsHeader h2 {
+  margin-left: 44%;
+  padding-top: 5%;
+  font-family: "Birthstone", cursive;
+  font-size: 55px;
+  font-weight: bold;
+  color: rgb(188, 67, 19) !important; 
+}
+
+.col-5 p {
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+.col-7 hr {
+    margin-right: 20%;
+}
+
+.col-7 {
+    font-size: 20px;
+}
+
+#afterShoot {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#secondRow {
+    margin-top: 30px;
+}
+
+#modelComments {
+    text-align: left;
+    margin-top: 15px;
+}
+
+#modelComments p {
+    margin-left: 20.5%;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+.lineUnderComments {
+width: 70%;
+margin-left: 20%;
+margin-top: 35px;
+}
+
+#proComments {
+font-weight: bold;
+margin-top: 12px;
+}
+
+#thirdLine {
+    margin-right: 210px;
+}
+
+#thirdLine hr {
+    margin-top: 30px;
+}
+
+.footer .col-2  p{
+    font-size: 20px;
+   
+}
+
+.footer .col-1  p{
+    font-size: 20px;
+
+}
+
+.footer .col-3 {
+    font-size: 20px;
+}
+
+.footer {
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 21%;
+    text-align: right;
+}
+
+.footer a {
+    color: rgb(188, 67, 19) !important;
+}

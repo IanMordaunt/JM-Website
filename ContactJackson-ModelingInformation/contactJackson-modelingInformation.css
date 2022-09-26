@@ -1,0 +1,71 @@
+
+
+#contactJacksonHeader h2 {
+    margin-left: -10%;
+    padding-top: 10%;
+    font-family: "Birthstone", cursive;
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(188, 67, 19) !important; 
+  }
+
+  .contactContent .row {
+    margin-top: 50px;
+  }
+
+  #contactContentCol1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20%;
+  }
+
+  .col-6 h2{
+    margin-left: 15%;
+    font-size: 35px;
+  }
+
+  .col-6 p{
+    margin-left: 15.5%;
+    font-size: 28px;
+  }
+
+  .col-6 li{
+    margin-left: 15%;
+    font-size: 27px;
+    margin-right: 15%;
+  }
+
+  #links  li {
+    color: rgb(188, 67, 19) !important; 
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 41%;
+  }
+
+  #links a {
+    color: rgb(188, 67, 19) !important;
+    text-decoration: none; 
+  }
+
+  #links p {
+    margin-left: 41%;
+    margin-right: 2%;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #bottomPoints li{
+    margin-left: 51px;
+margin-right: 25.5%;
+  }
+
+
+  #bottomPoints p{
+    margin-left: 53px;
+margin-right: 25.5%;
+font-weight: 600;
+  }
+
+  
+
+  

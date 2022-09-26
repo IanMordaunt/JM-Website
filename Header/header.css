@@ -1,0 +1,58 @@
+
+.headerName {
+    font-family:'Birthstone', cursive;
+    font-size: 78px; 
+}
+
+.headerNamePhoto {
+    font-family:'Birthstone', cursive;
+    font-size: 70px;
+
+    margin-left: 130px;
+}
+
+#headerNamePhotoRow {
+    margin-top: -95px;
+}
+
+#nameCol {
+    margin-top: 12px;
+    float: left;
+    width: 30%;
+    margin-left: 20%;
+    font-weight: 800;
+}
+
+.headerContainer a {
+    text-decoration: none !important;
+    text-decoration-style: none !important;
+    font-family:'Birthstone', cursive;
+    font-size: 48px;
+    color: black !important;
+    justify-content: center;
+    align-items: center;
+    font-size: bold;
+}
+
+.navItems a:hover {
+    color: rgb(188, 67, 19) !important;
+    transform: scale(1.25) !important;
+}
+
+.navItems {
+    padding-top: 30px;
+    width: 50%;
+    margin-left: 47%;
+}
+
+#navTopItems{
+padding-left: 70px;
+}
+
+#navItemGalleries {
+    padding-left: 25px;
+}
+
+#ContactJacksonNav {
+    padding-left: 85px;
+}

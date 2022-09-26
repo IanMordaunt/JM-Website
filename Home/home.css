@@ -1,0 +1,128 @@
+
+
+.homeMainImage {
+    scale: 65%;
+   /* display: block; */
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: -9%;
+   
+}
+
+.dividingLine {
+    background-color: black;
+    height: 2px;
+    width: 66.5%;
+    margin-left: 18%;
+    
+    margin-top: -180px;
+
+}
+
+.dividingLineSmall {
+    background-color: black;
+    height: 2px;
+margin-right: 28.5%;
+margin-top: -10px;
+}
+
+.aboutJM {
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.aboutJM h2 {
+    float: right;
+    margin-right: 330px;
+    font-family: Georgia;
+    margin-top: -570px;
+}
+
+.aboutJM p {
+    font-family: Georgia;
+    font-size: 23px;
+    margin-top: 30px;
+    margin-left: 65px;
+}
+
+.JMImage {
+
+    margin-right: 100px;
+    padding-left: 222px;
+    margin-top: -10px;
+    margin-bottom: 65px;
+
+}
+
+#amyKawadlerRow {
+    margin-top: -45px;
+}
+
+.amyKawadler {
+margin-left: 450px;
+}
+
+.thirdParagraph {
+    padding-top: 40px;
+}
+
+.JMSignature {
+    font-weight: bolder;
+    font-size: 26px !important;
+}
+
+.projectList {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#aboutJMDesc {
+    padding-left: 85px;
+}
+
+.col-7 h2 {
+    margin-top: 10px;
+}
+
+.col-7 p {
+    margin-right: 28%;
+    font-size: 20px;
+}
+
+#secondSectionAboutJM {
+    font-size: 20px;
+    margin-left: 17%;
+    margin-right: 15%;
+}
+
+#secondSectionAboutJM p{
+font-size: 20px;
+}
+
+#recentProjects {
+    text-align: center;
+}
+
+.projectList a {
+    font-family: "Birthstone", cursive;
+    font-size: 50px;
+    color: rgb(188, 67, 19) !important;
+}
+
+.projectList a:hover {
+   text-decoration-line: underline !important;
+}
+
+.projectList li {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
