@@ -9,6 +9,7 @@
 
 .headerContent h4 {
     margin-top: 20px;
+    color: gray;
 }
 
 .headerContent p {
@@ -18,6 +19,11 @@
 .headerContent hr {
     width: 90%;
     margin-left: 5%;
+}
+
+
+#headerNamePhotoId {
+    margin-top: -95px;
 }
 
 .experienceContent p{

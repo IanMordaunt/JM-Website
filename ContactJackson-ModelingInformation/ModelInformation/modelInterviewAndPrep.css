@@ -1,51 +1,49 @@
 
-.headerName {
-    font-family:'Birthstone', cursive;
-    font-size: 78px; 
+
+.headerContent {
+    width: 70%;
+    margin-top: 150px;
+  text-align: center;
+  margin-left: 17%;
 }
 
-.headerNamePhoto {
-    font-family:'Birthstone', cursive;
-    font-size: 70px;
-    margin-top: -20px;
+.headerContent h4 {
+    margin-top: 20px;
+    color: gray;
 }
 
-#nameCol {
-    margin-top: 12px;
-    float: left;
-    width: 30%;
-    margin-left: 20%;
-    font-weight: 800;
+.headerContent p {
+    font-size: 23px;
 }
 
-a {
-    text-decoration: none !important;
-    text-decoration-style: none !important;
-    font-family:'Birthstone', cursive;
-    font-size: 38px;
-    color: black !important;
-    justify-content: center;
-    align-items: center;
+.headerContent hr {
+    width: 90%;
+    margin-left: 5%;
 }
 
-.navItems a:hover {
-    color: rgb(145, 35, 35) !important;
+#headerNamePhotoId {
+    margin-top: -95px;
 }
 
-.navItems {
-    padding-top: 30px;
-    width: 50%;
-    margin-left: 50%;
+.experienceContent p{
+text-indent: 20px;
+font-size: 22px;
+margin-left: 20%;
+margin-right: 15%;
 }
 
-#navTopItems{
-padding-left: 70px;
+.experienceContent p a {
+    color: rgb(188, 67, 19) !important;
+    text-decoration: none;
 }
 
-#navItemGalleries {
-    padding-left: 25px;
+.backToContact a {
+   
+    font-family: "Birthstone", cursive;
+    font-size: 50px;
+    color: rgb(188, 67, 19) !important;
 }
 
-#ContactJacksonNav {
-    padding-left: 100px;
+.backToContact {
+    text-align: center;
 }

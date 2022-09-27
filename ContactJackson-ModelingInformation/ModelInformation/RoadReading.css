@@ -1,0 +1,53 @@
+
+
+.headerContent {
+    width: 70%;
+    margin-top: 150px;
+  text-align: center;
+  margin-left: 17%;
+}
+
+.headerContent h4 {
+    margin-top: 20px;
+    color: gray;
+}
+
+.headerContent p {
+    font-size: 23px;
+}
+
+.headerContent hr {
+    width: 90%;
+    margin-left: 5%;
+}
+
+#headerNamePhotoId {
+    margin-top: -95px;
+}
+
+
+.notesContent li{
+    margin-right: 18%;
+ margin-left: 21%;
+ font-size: 22px;
+ font-weight: 600;
+}
+
+
+.notesContent p{
+    margin-right: 14%;
+ margin-left: 15%;
+ font-size: 22px;
+ text-align: center;
+}
+
+.backToContact a {
+   
+    font-family: "Birthstone", cursive;
+    font-size: 50px;
+    color: rgb(188, 67, 19) !important;
+}
+
+.backToContact {
+    text-align: center;
+}

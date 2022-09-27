@@ -2,11 +2,9 @@
 
 .homeMainImage {
     scale: 65%;
-   /* display: block; */
    margin-left: auto;
    margin-right: auto;
    margin-top: -9%;
-   
 }
 
 .dividingLine {
@@ -14,22 +12,20 @@
     height: 2px;
     width: 66.5%;
     margin-left: 18%;
-    
     margin-top: -180px;
-
 }
 
 .dividingLineSmall {
     background-color: black;
     height: 2px;
-margin-right: 28.5%;
-margin-top: -10px;
+    margin-right: 28.5%;
+    margin-top: -10px;
 }
 
 .aboutJM {
-width: 70%;
-margin-left: auto;
-margin-right: auto;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .aboutJM h2 {
@@ -52,7 +48,6 @@ margin-right: auto;
     padding-left: 222px;
     margin-top: -10px;
     margin-bottom: 65px;
-
 }
 
 #amyKawadlerRow {
@@ -60,7 +55,7 @@ margin-right: auto;
 }
 
 .amyKawadler {
-margin-left: 450px;
+    margin-left: 450px;
 }
 
 .thirdParagraph {
