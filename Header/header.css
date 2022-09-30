@@ -4,15 +4,18 @@
     font-size: 78px; 
 }
 
+.JMsignature {
+    margin-left: -130px;
+}
+
 .headerNamePhoto {
     font-family:'Birthstone', cursive;
     font-size: 70px;
-
-    margin-left: 130px;
+    margin-left: 60px;
 }
 
 #headerNamePhotoRow {
-    margin-top: -95px;
+    margin-top: -120px;
 }
 
 #nameCol {

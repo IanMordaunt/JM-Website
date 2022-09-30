@@ -8,6 +8,11 @@
   color: rgb(188, 67, 19) !important; 
 }
 
+
+#headerNamePhotoId h2 {
+    margin-top: -115px;
+}
+
 .col-5 p {
     margin-top: 10px;
     text-align: center;

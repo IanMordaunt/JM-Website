@@ -1,4 +1,9 @@
 
+#headerNamePhotoId {
+    margin-top: -115px;
+}
+
+
 .modelCommentsHeader h2 {
     margin-left: 44%;
     padding-top: 5%;
@@ -91,7 +96,8 @@ margin-top: 20% !important;
     margin-right: 30%;
     margin-left: 30%;
 }
-   
+
+
 .footerContainer {
     justify-content: center;
     width: 80%;
