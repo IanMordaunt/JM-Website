@@ -11,11 +11,11 @@
 .headerNamePhoto {
     font-family:'Birthstone', cursive;
     font-size: 70px;
-    margin-left: 60px;
+    margin-left: 25px !important;
 }
 
 #headerNamePhotoRow {
-    margin-top: -120px;
+    margin-top: -120px !important;
 }
 
 #nameCol {
@@ -30,7 +30,7 @@
     text-decoration: none !important;
     text-decoration-style: none !important;
     font-family:'Birthstone', cursive;
-    font-size: 48px;
+    font-size: 48px !important;
     color: black !important;
     justify-content: center;
     align-items: center;
@@ -57,5 +57,5 @@ padding-left: 70px;
 }
 
 #ContactJacksonNav {
-    padding-left: 85px;
+    padding-left: 85px !important;
 }

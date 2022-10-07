@@ -1,7 +1,10 @@
-
+#headerNamePhotoId {
+  margin-top: -110px;
+}
 
 #contactJacksonHeader h2 {
     margin-left: -10%;
+    margin-top: 60px;
     padding-top: 10%;
     font-family: "Birthstone", cursive;
     font-size: 55px;
