@@ -76,6 +76,7 @@ padding-left: 70px;
 
   #headerNamePhotoId {
     margin-top: -118px;
+    padding-left: 170px;
   }
 
   .headerContent {
@@ -111,19 +112,21 @@ padding-left: 70px;
   }
 
   #galleryTitle {
-    margin-right: 15%;
-    margin-left: 15.5%;
+    justify-content: center !important;
+    text-align: center;
+    width: 80%;
+    margin-left: 11.5%;
   }
 
-  #secondImgTitle {
-    padding-left: 20px;
+  #galleryTitleRow2 {
+    justify-content: center !important;
+    text-align: center;
+    width: 80%;
+    margin-left: 11.5%;
+    margin-top: 40px;
   }
 
-  #thirdImgTitle {
-    margin-right: -50px;
-  }
-
-  .col-md-4 {
+  .imgColCell {
     align-items: center;
     text-align: center;
     border-style: solid;
@@ -150,7 +153,7 @@ padding-left: 70px;
         text-decoration: rgb(188, 67, 19) !important; 
       }
 
-      .col {
+      .col- {
         text-align: center;
       }
 
@@ -186,9 +189,13 @@ margin-top: 50px;
     margin-top: 4px;
   }
 
-  .imageRowTwoTitle {
-    margin-top: 50px;
+  .imgTitle {
+
   }
+
+  /* .imageRowTwoTitle {
+    margin-top: 50px;
+  } */
    
 .footerContainer {
     justify-content: center;

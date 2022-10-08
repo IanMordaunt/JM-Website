@@ -29,9 +29,33 @@
     color: rgb(188, 67, 19) !important; 
   }
 
+/* IMAGE CONTAINER HEADER AND TOP MARGIN */
+
   .imageContainer {
     margin-top: 50px;
   }
+
+  .imageContainer h1 {
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* EXAMPLE STYLE */
+  /* TODO: DELETE ONCE RESOLVED */
+
+  .imageContainer11x6-3 .img11x6-3Row{
+    margin-top: -60px;
+  }
+
+  .imageContainer11x8-5 .img11x8-5Row {
+    margin-top: -20px;
+  }
+
+  .imageContainer8-5x11 .img8-5x11Row {
+    margin-top: 50px;
+  }
+
+  /* TODO */
 
   #imageRow1 {
     justify-content: center;
@@ -45,17 +69,7 @@
 
   .col-md-4 {
 text-align: center;
-font-size: 25px;
-margin-left: -35px;
-margin-right: -35px;
   }
-
-  .col-md-4 a {
-    font-size: 30px;
-    color: grey !important;
-    text-decoration: none;
-   
-      }
 
       .col-md-4 a:hover {
         text-decoration: underline rgb(188, 67, 19) !important; 
@@ -66,29 +80,10 @@ margin-right: -35px;
       }
 
 .imageResize {
-    height: 500px;
-    width: 500px;
-    object-fit: cover;
-    object-position: center center;
     border-style: solid;
     border-color: grey;
     padding: 18px;
 }
-
-.img1Row1:hover {
-margin-left: 101% !important;
-margin-top: 20% !important;
-}
-
-.img2Row1:hover {
-    margin-left: 12% !important;
-    margin-top: 20% !important;
-    }
-
-    .img3Row1:hover {
-        margin-left: -192% !important;
-        margin-top: 27% !important;
-        }  
 
 .imageResize:hover {
     transform: scale(1.75);
@@ -97,6 +92,69 @@ margin-top: 20% !important;
     margin-left: 30%;
 }
 
+.img8-5x11Row {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* ROW CELL MARGINS - LEFT AND RIGHT */
+
+.imgColCell11x8-5 {
+  margin-left: -95px !important;
+  margin-right: -95px !important;
+}
+
+.imgColCell11x8-5Two{
+  margin-left: -91px !important;
+  margin-right: -91px !important;
+}
+
+.imgColCell8-5x11 {
+  margin-left: -70px !important;
+  margin-right: -70px !important;
+}
+
+.imgColCell11x6-3 {
+  margin-left: -95px !important;
+  margin-right: -95px !important;
+}
+
+.imgColCell11x11 {
+  margin-left: -115px !important;
+  margin-right: -115px !important;
+}
+
+.img11x11RowTwo .imgColCell11x11 {
+  margin-top: 25px;
+  margin-left: -92px !important;
+  margin-right: -92px !important;
+}
+
+
+    /* IMAGE SIZING */
+    .img11x8-5 {
+      margin-top: 50px;
+          width: 400px;
+          height: 308px;
+        }
+      
+        .img8-5x11 {
+          width: 308px;
+          height: 400px;
+          margin-top: 3px;
+        }
+      
+        .img11x6-3 {
+          width: 400px;
+          height: 228px;
+          margin-top: 90px;
+        }
+      
+.img11x11 {
+    width: 400px;
+    height: 400px;
+    margin-top: 4px;
+  }
 
 .footerContainer {
     justify-content: center;
