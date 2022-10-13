@@ -9,8 +9,8 @@
 }
 
 .headerNamePhoto {
-    font-family:'Birthstone', cursive;
-    font-size: 70px;
+    font-family: 'Poiret One', cursive;
+    font-size: 60px;
     margin-left: 25px !important;
 }
 
@@ -29,8 +29,8 @@
 .headerContainer a {
     text-decoration: none !important;
     text-decoration-style: none !important;
-    font-family:'Birthstone', cursive;
-    font-size: 48px !important;
+    font-family: 'Poiret One', cursive;
+    font-size: 40px !important;
     color: black !important;
     justify-content: center;
     align-items: center;

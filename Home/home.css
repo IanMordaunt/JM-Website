@@ -100,14 +100,24 @@ font-size: 20px;
     text-align: center;
 }
 
-.projectList a {
-    font-family: "Birthstone", cursive;
-    font-size: 50px;
+#RProjects {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 44px !important;
+    font-family: 'Poiret One', cursive;
     color: rgb(188, 67, 19) !important;
 }
 
-.projectList a:hover {
-   text-decoration-line: underline !important;
+
+.projectList #Ex2019 {
+    font-family: 'Poiret One', cursive;
+    font-size: 27px;
+text-decoration: none !important;
+color: black;
+}
+
+ #Ex2019:hover {
+   text-decoration: underline rgb(188, 67, 19) !important;
 }
 
 .projectList li {
