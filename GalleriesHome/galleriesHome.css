@@ -1,82 +1,11 @@
 
-
-
-.headerName {
-  font-family:'Birthstone', cursive;
-  font-size: 78px; 
-}
-
-.JMsignature {
-  margin-left: -130px;
-}
-
-.headerNamePhoto {
-  font-family:'Birthstone', cursive;
-  font-size: 70px;
-}
-
-#headerNamePhotoRow {
-  margin-top: -120px;
-}
-
-.headerNamePhoto {
-  margin-left: -140px !important;
-}
-
-#nameCol {
-  margin-top: 12px;
-  float: left;
-  width: 30%;
-  margin-left: 20%;
-  font-weight: 800;
-}
-
-.headerContainer a {
-  text-decoration: none !important;
-  text-decoration-style: none !important;
-  font-family:'Birthstone', cursive;
-  font-size: 48px;
-  color: black !important;
-  justify-content: center;
-  align-items: center;
-  font-size: bold;
-}
-
-.navItems a:hover {
-  color: rgb(188, 67, 19) !important;
-  transform: scale(1.25) !important;
-}
-
-.navItems {
-  padding-top: 30px;
-  width: 50%;
-  margin-left: 47%;
-}
-
-#navTopItems{
-padding-left: 70px;
-}
-
-#navItemGalleries {
-  padding-left: 25px;
-}
-
-#ContactJacksonNav {
-  padding-right: 27%;
-}
-
 .modelCommentsHeader h2 {
     margin-left: 44%;
     padding-top: 5%;
-    font-family: "Birthstone", cursive;
+    font-family: 'Poiret One' !important;
     font-size: 55px;
     font-weight: bold;
     color: rgb(188, 67, 19) !important; 
-  }
-
-  #headerNamePhotoId {
-    margin-top: -118px;
-    padding-left: 170px;
   }
 
   .headerContent {
@@ -90,7 +19,7 @@ padding-left: 70px;
   }
 
   .headerContent h2 {
-    font-family: "Birthstone", cursive;
+    font-family: 'Poiret One';
     font-size: 75px;
     font-weight: bold;
     color: rgb(188, 67, 19) !important; 
