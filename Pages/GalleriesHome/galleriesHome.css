@@ -66,11 +66,16 @@
     margin-left: 45px;
   }
 
+  .grandmotherTitle a{
+    font-size: 30px;
+    color: grey !important;
+    text-decoration: none;
+  }
+
   .col-md-4 a {
     font-size: 30px;
     color: grey !important;
     text-decoration: none;
-   
       }
 
       .col a:hover {

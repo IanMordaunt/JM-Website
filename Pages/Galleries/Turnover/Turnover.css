@@ -20,8 +20,13 @@
 
 /* IMAGE CONTAINER HEADER AND TOP MARGIN */
 
+.imageGridWrapper {
+  flex-wrap: wrap;
+}
+
   .imageContainer {
     margin-top: 50px;
+    flex-wrap: wrap;
   }
 
   .imageContainer h1 {
