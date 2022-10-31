@@ -166,3 +166,12 @@ text-align: center;
   .footerContainer a {
       color: rgb(188, 67, 19) !important;
   }
+
+
+@media (min-width: 1440px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
