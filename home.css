@@ -10,8 +10,8 @@
 .dividingLine {
     background-color: black;
     height: 2px;
-    width: 66.5%;
-    margin-left: 18%;
+    width: 70%;
+    margin-left: 19%;
     margin-top: -180px;
 }
 
@@ -126,10 +126,431 @@ color: black;
 }
 
 
+/* DYNAMIC DESIGN */
 
-@media (min-width: 1440px) {
+
+@media (max-width: 1720px) {
+
+    .homeMainImage {
+        margin-top: -160px !important;
+    }
+
+    .aboutJM p {
+    font-family: Georgia;
+    font-size: 23px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.dividingLine {
+    background-color: black;
+    height: 2px;
+    width: 73% !important;
+    margin-left: 20%;
+    margin-top: -180px;
+}
+
+#aboutJMDesc {
+    padding-left: 120px !important;
+}
+
+.col-7 p {
+    margin-right: 20%;
+    font-size: 20px;
+}
+
+#secondSectionAboutJM {
+    font-size: 20px;
+    margin-left: 17%;
+    margin-right: 10%;
+}
 
 }
+
+@media (max-width: 1690px) {
+    .dividingLine {
+        background-color: black;
+        height: 2px;
+        width: 74% !important;
+        margin-left: 20%;
+        margin-top: -180px;
+    }
+}
+
+@media (max-width: 1630px) {
+
+    #aboutJMDesc {
+        padding-left: 145px !important;
+    }
+}
+
+@media (max-width: 1600px) {
+    .dividingLine {
+        background-color: black;
+        height: 2px;
+        width: 76% !important;
+        margin-left: 22%;
+        margin-top: -180px;
+    }
+
+    #aboutJMDesc {
+        padding-left: 180px !important;
+    }
+
+    .col-7 p {
+        margin-right: 1% !important;
+        font-size: 20px;
+    }
+
+    .dividingLineSmall {
+        background-color: black;
+        height: 2px;
+        margin-right:5%;
+        margin-top: -10px;
+    }
+
+    #secondSectionAboutJM {
+        font-size: 20px;
+        margin-left: 17%;
+        margin-right: -1%;
+    }
+}
+
+@media (max-width: 1550px) {
+    .dividingLine {
+        background-color: black;
+        height: 2px;
+        width: 80% !important;
+        margin-left: 22%;
+        margin-top: -180px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .dividingLine {
+        background-color: black;
+        height: 2px;
+        width: 83% !important;
+        margin-left: 23%;
+        margin-top: -180px;
+    }
+
+    #aboutJMDesc {
+        padding-left: 195px !important;
+    }
+
+    .col-7 p {
+        margin-right: -10% !important;
+        font-size: 20px;
+    }
+
+    .dividingLineSmall {
+        background-color: black;
+        height: 2px;
+        margin-right: -12%;
+        margin-top: -10px;
+    }
+}
+
+@media (max-width: 1450px) {
+    .dividingLine {
+        background-color: black;
+        height: 2px;
+        width: 85% !important;
+        margin-left: 24%;
+        margin-top: -180px;
+    }
+
+    #aboutJMDesc {
+        padding-left: 205px !important;
+    }
+
+    .col-7 p {
+        margin-right: -14% !important;
+        font-size: 20px;
+    }
+
+    #secondSectionAboutJM {
+        font-size: 20px;
+        margin-left: 17%;
+        margin-right: -8%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .dividingLine {
+        background-color: black;
+        height: 2px;
+        width: 88% !important;
+        margin-left: 25%;
+        margin-top: -180px;
+    }
+
+    #aboutJMDesc {
+        padding-left: 230px !important;
+    }
+
+    .col-7 p {
+        margin-right: -19% !important;
+        font-size: 20px;
+    }
+
+    .dividingLineSmall {
+        background-color: black;
+        height: 2px;
+        margin-right: -30%;
+        margin-top: -20px;
+    }
+
+    #secondSectionAboutJM {
+        font-size: 20px;
+        margin-left: 21%;
+       
+    }
+}
+
+@media (max-width: 1350px) {
+    .dividingLine {
+        background-color: black;
+        height: 2px;
+        width: 91% !important;
+        margin-left: 26%;
+        margin-top: -180px;
+    }
+
+    #aboutJMDesc {
+        padding-left: 260px !important;
+    }
+
+    .col-7 p {
+        margin-right: -34% !important;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .homeMainImage {
+        margin-top: -160px !important;
+    }
+
+  .dividingLine {
+        background-color: black;
+        height: 2px;
+        width: 94% !important;
+        margin-left: 27%;
+        margin-top: -180px;
+    }
+
+    .JMImage {
+
+        margin-right: 100px;
+        padding-left: 262px;
+        margin-top: -10px;
+        margin-bottom: 65px;
+    }
+
+    #aboutJMDesc {
+        padding-left: 300px !important;
+    }
+
+    .col-7 p {
+        margin-right: -52% !important;
+        font-size: 20px;
+    }
+
+    #secondSectionAboutJM {
+        font-size: 20px;
+        margin-left: 26%;
+        margin-right: -20%;
+    }
+}
+
+@media (max-width: 1250px) {
+
+  .dividingLine {
+        background-color: black;
+        height: 2px;
+        width: 99% !important;
+        margin-left: 27%;
+        margin-top: -180px;
+    }
+
+
+    #aboutJMDesc {
+        padding-left: 330px !important;
+    }
+
+    .col-7 p {
+        margin-right: -80% !important;
+        font-size: 20px;
+    }
+
+    .dividingLineSmall {
+        background-color: black;
+        height: 2px;
+        margin-right: -81%;
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .dividingLine {
+          background-color: black;
+          height: 2px;
+          width: 104% !important;
+          margin-left: 28%;
+          margin-top: -180px;
+      }
+
+      #aboutJMDesc {
+        padding-left: 350px !important;
+    }
+
+    .col-7 p {
+        margin-right: -120% !important;
+        font-size: 20px;
+    }
+
+    #secondSectionAboutJM {
+        font-size: 20px;
+        margin-left: 27%;
+        margin-right: -34%;
+    }
+  }
+
+  @media (max-width: 1150px) {
+
+    .dividingLine {
+          background-color: black;
+          height: 2px;
+          width: 108% !important;
+          margin-left: 29%;
+          margin-top: -180px;
+      }
+
+      .aboutJM h2 {
+        float: right;
+        margin-right: 330px;
+        font-family: Georgia;
+        margin-top: -570px;
+    }
+
+    .col-7 h2 {
+        margin-top: 10px;
+        width: 130%;
+    }
+
+    .dividingLineSmall {
+        background-color: black;
+        height: 2px;
+        margin-right: -131%;
+        margin-top: -20px;
+    }
+  }
+
+  @media (max-width: 1100px) {
+
+    .dividingLine {
+          background-color: black;
+          height: 2px;
+          width: 114% !important;
+          margin-left: 30%;
+          margin-top: -180px;
+      }
+
+      #aboutJMDesc {
+        padding-left: 400px !important;
+    }
+
+    .col-7 p {
+        margin-right: -200% !important;
+        font-size: 20px;
+    }
+
+    .col-7 h2 {
+        margin-top: 10px;
+        width: 150%;
+    }
+    .dividingLineSmall {
+        background-color: black;
+        height: 2px;
+        margin-right: -200%;
+        margin-top: -20px;
+    }
+
+    #secondSectionAboutJM {
+        font-size: 20px;
+        margin-left: 30%;
+        margin-right: -44%;
+    }
+  }
+
+  @media (max-width: 1050px) {
+
+    .dividingLine {
+          background-color: black;
+          height: 2px;
+          width: 119% !important;
+          margin-left: 32%;
+          margin-top: -180px;
+      }
+
+      #aboutJMDesc {
+        padding-left: 400px !important;
+    }
+
+    .col-7 p {
+        margin-right: -240% !important;
+        font-size: 20px;
+    }
+
+    .col-7 h2 {
+        margin-top: 10px;
+        width: 170%;
+    }
+
+    .dividingLineSmall {
+        background-color: black;
+        height: 2px;
+        margin-right: -250%;
+        margin-top: -20px;
+    }
+  }
+
+  @media (max-width: 1000px) {
+
+    .dividingLine {
+          background-color: black;
+          height: 2px;
+          width: 124% !important;
+          margin-left: 34%;
+          margin-top: -180px;
+      }
+
+      #aboutJMDesc {
+        padding-left: 400px !important;
+    }
+
+    .col-7 p {
+        margin-right: -290% !important;
+        font-size: 20px;
+    }
+
+    .dividingLineSmall {
+        background-color: black;
+        height: 2px;
+        margin-right: -312%;
+        margin-top: -20px;
+    }
+
+    #secondSectionAboutJM {
+        font-size: 20px;
+        margin-left: 30%;
+        margin-right: -54%;
+    }
+  }
 
 @media (min-width: 992px) {
 

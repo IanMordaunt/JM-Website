@@ -56,3 +56,169 @@ padding-left: 70px;
     padding-left: 85px !important;
     margin-top: 12px;
 }
+
+/* DYNAMIC DESIGN */
+
+
+@media (max-width: 1740px) {
+
+    .JMsignature {
+        margin-left: 30px !important;
+    }
+    
+    .headerNamePhoto {
+        font-family: 'Poiret One', cursive;
+        font-size: 60px;
+        margin-left: 165px !important;
+    }
+}
+
+@media (max-width: 1600px) {
+
+    .JMsignature {
+        margin-left: 10px;
+    }
+    
+    .headerNamePhoto {
+        font-family: 'Poiret One', cursive;
+        font-size: 60px;
+        margin-left: 145px !important;
+    }
+
+    #headerNamePhotoRow {
+        margin-top: -105px !important;
+    }
+
+    .headerContainer a {
+        text-decoration: none !important;
+        text-decoration-style: none !important;
+        font-family: 'Poiret One', cursive;
+        font-size: 30px !important;
+        color: black !important;
+        justify-content: center;
+        align-items: center;
+        font-size: bold;
+    }
+}
+
+
+@media (max-width: 1440px) {
+
+    .JMsignature {
+        margin-left: 100px !important;
+    }
+    
+    .headerNamePhoto {
+        font-family: 'Poiret One', cursive;
+        font-size: 50px;
+        margin-left: 205px !important;
+    }
+
+    #headerNamePhotoRow {
+        margin-top: -90px !important;
+    }
+
+    .navItems {
+        padding-top: 30px;
+        width: 50%;
+        margin-left: 60%;
+    }
+    
+    #navTopItems{
+    padding-left: 70px;
+    }
+    
+    #navItemGalleries {
+        padding-left: 25px;
+    }
+    
+    #ContactJacksonNav {
+        padding-left: 85px !important;
+        margin-top: 12px;
+    }
+
+}
+
+@media (max-width: 1285px) {
+
+    .JMsignature {
+        margin-left: 45px;
+    }
+
+
+    .navItems {
+        padding-top: 30px;
+        width: 60%;
+        margin-left: 65%;
+    }
+    
+    #navTopItems{
+    padding-left: 60px;
+    }
+    
+    #navItemGalleries {
+        padding-left: 25px;
+    }
+    
+    #ContactJacksonNav {
+        padding-left: 85px !important;
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 1250px) {
+
+    #headerNamePhotoRow {
+        margin-top: -80px !important;
+    }
+
+    .navItems {
+        padding-top: 30px;
+        width: 60%;
+        margin-left: 70%;
+    }
+}
+
+
+@media (max-width: 1100px) {
+
+    .JMsignature {
+        margin-left: 220px !important;
+    }
+
+    .headerNamePhoto {
+        font-family: 'Poiret One', cursive;
+        font-size: 40px;
+        margin-left: 295px !important;
+    }
+
+    #headerNamePhotoRow {
+        margin-top: -60px !important;
+    }
+
+    .navItems {
+        padding-top: 30px;
+        width: 60%;
+        margin-left: 80%;
+    }
+}
+
+@media (max-width: 1055px) {
+
+    .JMsignature {
+        margin-left: 45px;
+    }
+
+    .navItems {
+        padding-top: 30px;
+        width: 65%;
+        margin-left: 80%;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .JMsignature {
+        margin-left: 45px;
+    }
+}
