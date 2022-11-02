@@ -165,6 +165,10 @@ color: black;
     margin-right: 10%;
 }
 
+#footerRow {
+    margin-left: -15% !important;
+}
+
 }
 
 @media (max-width: 1690px) {
@@ -175,12 +179,21 @@ color: black;
         margin-left: 20%;
         margin-top: -180px;
     }
+
+    .recentProjectsList {
+        list-style-type: none;
+        margin-left: 5%;
+    }
 }
 
 @media (max-width: 1630px) {
 
     #aboutJMDesc {
         padding-left: 145px !important;
+    }
+
+    #footerRow {
+        margin-left: -18% !important;
     }
 }
 
@@ -250,6 +263,16 @@ color: black;
         margin-right: -12%;
         margin-top: -10px;
     }
+
+    .recentProjectsList {
+        list-style-type: none;
+        margin-left: 10%;
+    }
+
+
+    #footerRow {
+        margin-left: 20% !important;
+    }
 }
 
 @media (max-width: 1450px) {
@@ -307,6 +330,11 @@ color: black;
         margin-left: 21%;
        
     }
+
+    .recentProjectsList {
+        list-style-type: none;
+        margin-left: 15%;
+    }
 }
 
 @media (max-width: 1350px) {
@@ -325,6 +353,10 @@ color: black;
     .col-7 p {
         margin-right: -34% !important;
         font-size: 20px;
+    }
+
+    #footerRow {
+        margin-left: 10% !important;
     }
 }
 
@@ -364,6 +396,11 @@ color: black;
         margin-left: 26%;
         margin-right: -20%;
     }
+
+    .recentProjectsList {
+        list-style-type: none;
+        margin-left: 23%;
+    }
 }
 
 @media (max-width: 1250px) {
@@ -392,6 +429,10 @@ color: black;
         margin-right: -81%;
         margin-top: -20px;
     }
+
+    #footerRow {
+        margin-left: 31% !important;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -417,6 +458,11 @@ color: black;
         font-size: 20px;
         margin-left: 27%;
         margin-right: -34%;
+    }
+
+    .recentProjectsList {
+        list-style-type: none;
+        margin-left: 29%;
     }
   }
 
@@ -447,6 +493,10 @@ color: black;
         height: 2px;
         margin-right: -131%;
         margin-top: -20px;
+    }
+
+    #footerRow {
+        margin-left: 42% !important;
     }
   }
 
@@ -485,6 +535,15 @@ color: black;
         margin-left: 30%;
         margin-right: -44%;
     }
+
+    #recentProjects {
+        margin-right: -80px !important;
+    }
+
+    .recentProjectsList {
+        list-style-type: none;
+        margin-left: 31%;
+    }
   }
 
   @media (max-width: 1050px) {
@@ -516,6 +575,10 @@ color: black;
         height: 2px;
         margin-right: -250%;
         margin-top: -20px;
+    }
+
+    #footerRow {
+        margin-right: -25% !important;
     }
   }
 
