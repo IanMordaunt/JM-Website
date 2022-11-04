@@ -1,10 +1,22 @@
 
 
 .homeMainImage {
+    margin-top: -200px !important;
+}
+
+.homeCover {
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+}
+
+.coverCol {
+    text-align: center;
+    justify-content: center;
+}
+
+.homeMainImage {
     scale: 65%;
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: -9%;
 }
 
 .dividingLine {
@@ -20,6 +32,10 @@
     height: 2px;
     margin-right: 28.5%;
     margin-top: -10px;
+}
+
+.aboutJMCol {
+   margin-left: 7.5%;
 }
 
 .aboutJM {
@@ -74,6 +90,7 @@
 }
 
 #aboutJMDesc {
+margin-left: 55px;
     padding-left: 85px;
 }
 
@@ -81,15 +98,15 @@
     margin-top: 10px;
 }
 
-.col-7 p {
+.col-6 p {
     margin-right: 28%;
     font-size: 20px;
 }
 
 #secondSectionAboutJM {
     font-size: 20px;
-    margin-left: 17%;
-    margin-right: 15%;
+    width: 59%;
+    margin-left: 22%;
 }
 
 #secondSectionAboutJM p{
@@ -128,6 +145,125 @@ color: black;
 
 /* DYNAMIC DESIGN */
 
+@media (max-width: 2100px) {
+    
+    #aboutJMDesc {
+        padding-left: 120px !important;
+    }
+
+    #aboutJMDesc p {
+        margin-right: 200px !important;
+    }
+
+    #secondSectionAboutJM {
+        width: 90% !important;
+    }
+
+    .secondDescCol  {
+        padding-right: 140px !important;
+        margin-left: 30px !important;
+        width: 80%;
+    }
+
+    .recentProjectsList {
+        list-style-type: none;
+        margin-left: 2%;
+    }
+
+    #footerRow {
+        margin-left: -24% !important;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 2000px) {
+    
+    #aboutJMDesc {
+        padding-left: 120px !important;
+    }
+
+    #aboutJMDesc p {
+        margin-right: 120px !important;
+    }
+
+    #secondSectionAboutJM {
+        width: 90% !important;
+    }
+
+    .secondDescCol  {
+        padding-right: 70px !important;
+        margin-left: 30px !important;
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 1900px) {
+    
+    #aboutJMDesc {
+        padding-left: 180px !important;
+        padding-right: 100px !important;
+    }
+
+    .dividingLineSmall {
+        margin-right: -2%;
+    }
+
+    #aboutJMDesc p{
+        
+        margin-right: -1% !important;
+    }
+
+    .JMImage {
+        margin-left: 25px;
+        }
+
+        .secondDescCol  {
+            padding-right: 60px !important;
+            margin-left: 50px !important;
+            width: 80%;
+        }
+
+        .recentProjectsList {
+            list-style-type: none;
+            margin-left: 8%;
+        }
+}
+
+
+@media (max-width: 1750px) {
+    
+    #aboutJMDesc {
+        padding-left: 230px !important;
+        margin-right: -300px !important;
+    }
+
+    .dividingLineSmall {
+        margin-right: -18% !important;
+    }
+
+    #aboutJMDesc p {
+        margin-right: -120px !important;
+    }
+
+    .JMImage {
+        margin-left: 25px;
+        }
+
+        .secondDescCol  {
+            padding-right: 1px !important;
+            margin-left: 70px !important;
+            width: 80%;
+        }
+
+        .recentProjectsList {
+            list-style-type: none;
+            margin-left: 13%;
+        }
+}
+
 
 @media (max-width: 1720px) {
 
@@ -151,7 +287,7 @@ color: black;
 }
 
 #aboutJMDesc {
-    padding-left: 120px !important;
+    padding-left: 220px !important;
 }
 
 .col-7 p {
@@ -163,6 +299,16 @@ color: black;
     font-size: 20px;
     margin-left: 17%;
     margin-right: 10%;
+}
+
+.secondDescCol  {
+    padding-right: -260px !important;
+    margin-left: 70px !important;
+    width: 80%;
+}
+
+.secondDescCol p {
+    margin-right: -140px !important;
 }
 
 #footerRow {
@@ -182,14 +328,18 @@ color: black;
 
     .recentProjectsList {
         list-style-type: none;
-        margin-left: 5%;
+        margin-left: 12%;
     }
 }
 
 @media (max-width: 1630px) {
 
     #aboutJMDesc {
-        padding-left: 145px !important;
+        padding-left: 245px !important;
+    }
+
+    #aboutJMDesc p {
+        margin-right: -24% !important;
     }
 
     #footerRow {
@@ -207,11 +357,16 @@ color: black;
     }
 
     #aboutJMDesc {
-        padding-left: 180px !important;
+        padding-left: 270px !important;
     }
 
-    .col-7 p {
-        margin-right: 1% !important;
+    #aboutJMDesc p {
+       margin-right: -20% !important;
+      
+    }
+
+    #aboutJMDesc p {
+        margin-right: -55% !important;
         font-size: 20px;
     }
 
@@ -226,6 +381,20 @@ color: black;
         font-size: 20px;
         margin-left: 17%;
         margin-right: -1%;
+    }
+
+    .secondDescCol  {
+        margin-left: 140px !important;
+        width: 80%;
+    }
+    
+    .secondDescCol p {
+        margin-right: -210px !important;
+    }
+
+    .recentProjectsList {
+        list-style-type: none;
+        margin-left: 15%;
     }
 }
 
@@ -249,11 +418,15 @@ color: black;
     }
 
     #aboutJMDesc {
-        padding-left: 195px !important;
+        padding-left: 295px !important;
     }
 
-    .col-7 p {
-        margin-right: -10% !important;
+    #aboutJMDesc p {
+        margin-right: -40% !important;
+    }
+
+    #aboutJMDesc p {
+        margin-right: -85% !important;
         font-size: 20px;
     }
 
@@ -269,6 +442,19 @@ color: black;
         margin-left: 10%;
     }
 
+    .secondDescCol  {
+        margin-left: 170px !important;
+        width: 80%;
+    }
+    
+    .secondDescCol p {
+        margin-right: -210px !important;
+    }
+
+    .recentProjectsList {
+        list-style-type: none;
+        margin-left: 18%;
+    }
 
     #footerRow {
         margin-left: 20% !important;
@@ -285,11 +471,11 @@ color: black;
     }
 
     #aboutJMDesc {
-        padding-left: 205px !important;
+        padding-left: 305px !important;
     }
 
-    .col-7 p {
-        margin-right: -14% !important;
+    #aboutJMDesc p {
+        margin-right: -114% !important;
         font-size: 20px;
     }
 
@@ -297,6 +483,15 @@ color: black;
         font-size: 20px;
         margin-left: 17%;
         margin-right: -8%;
+    }
+
+    .secondDescCol  {
+        margin-left: 170px !important;
+        width: 80%;
+    }
+    
+    .secondDescCol p {
+        margin-right: -270px !important;
     }
 }
 
@@ -310,11 +505,15 @@ color: black;
     }
 
     #aboutJMDesc {
-        padding-left: 230px !important;
+        padding-left: 330px !important;
     }
 
-    .col-7 p {
-        margin-right: -19% !important;
+    #aboutJMDesc h2 {
+        margin-right: -200px;
+    }
+
+    #aboutJMDesc p {
+        margin-right: -149% !important;
         font-size: 20px;
     }
 
@@ -335,6 +534,20 @@ color: black;
         list-style-type: none;
         margin-left: 15%;
     }
+
+
+    .secondDescCol  {
+        margin-left: 120px !important;
+        width: 80%;
+    }
+    
+    .secondDescCol p {
+        margin-right: -280px !important;
+    }
+
+    .recentProjectsList {
+        list-style-type: none;
+        margin-left: 23%;
 }
 
 @media (max-width: 1350px) {
@@ -347,12 +560,21 @@ color: black;
     }
 
     #aboutJMDesc {
-        padding-left: 260px !important;
+        padding-left: 360px !important;
     }
 
-    .col-7 p {
-        margin-right: -34% !important;
+    #aboutJMDesc p {
+        margin-right: -210% !important;
         font-size: 20px;
+    }
+
+    .secondDescCol  {
+        margin-left: 120px !important;
+        width: 80%;
+    }
+    
+    .secondDescCol p {
+        margin-right: -340px !important;
     }
 
     #footerRow {
@@ -383,11 +605,11 @@ color: black;
     }
 
     #aboutJMDesc {
-        padding-left: 300px !important;
+        padding-left: 400px !important;
     }
 
-    .col-7 p {
-        margin-right: -52% !important;
+    #aboutJMDesc p {
+        margin-right: -302% !important;
         font-size: 20px;
     }
 
@@ -401,6 +623,20 @@ color: black;
         list-style-type: none;
         margin-left: 23%;
     }
+
+    .secondDescCol  {
+        margin-left: 120px !important;
+        width: 80%;
+    }
+    
+    .secondDescCol p {
+        margin-right: -310px !important;
+    }
+
+    .recentProjectsList {
+        list-style-type: none;
+        margin-left: 30%;
+}
 }
 
 @media (max-width: 1250px) {
@@ -415,11 +651,15 @@ color: black;
 
 
     #aboutJMDesc {
-        padding-left: 330px !important;
+        padding-left: 430px !important;
     }
 
-    .col-7 p {
-        margin-right: -80% !important;
+    #aboutJMDesc h2 {
+        margin-right: -270px;
+    }
+
+    #aboutJMDesc p {
+        margin-right: -550px !important;
         font-size: 20px;
     }
 
@@ -446,11 +686,11 @@ color: black;
       }
 
       #aboutJMDesc {
-        padding-left: 350px !important;
+        padding-left: 450px !important;
     }
 
-    .col-7 p {
-        margin-right: -120% !important;
+    #aboutJMDesc p {
+        margin-right: -510px !important;
         font-size: 20px;
     }
 
@@ -464,6 +704,11 @@ color: black;
         list-style-type: none;
         margin-left: 29%;
     }
+
+    .recentProjectsList {
+        list-style-type: none;
+        margin-left: 35%;
+}
   }
 
   @media (max-width: 1150px) {
@@ -481,6 +726,19 @@ color: black;
         margin-right: 330px;
         font-family: Georgia;
         margin-top: -570px;
+    }
+
+    #aboutJMDesc {
+        padding-left: 470px !important;
+    }
+
+    #aboutJMDesc p {
+        margin-right: -600px !important;
+        font-size: 20px;
+    }
+
+    .secondDescCol p {
+        margin-right: -380px !important;
     }
 
     .col-7 h2 {
@@ -511,11 +769,11 @@ color: black;
       }
 
       #aboutJMDesc {
-        padding-left: 400px !important;
+        padding-left: 470px !important;
     }
 
-    .col-7 p {
-        margin-right: -200% !important;
+    #aboutJMDesc p {
+        margin-right: -600px !important;
         font-size: 20px;
     }
 
@@ -542,7 +800,7 @@ color: black;
 
     .recentProjectsList {
         list-style-type: none;
-        margin-left: 31%;
+        margin-left: 367;
     }
   }
 
@@ -557,11 +815,11 @@ color: black;
       }
 
       #aboutJMDesc {
-        padding-left: 400px !important;
+        padding-left: 480px !important;
     }
 
-    .col-7 p {
-        margin-right: -240% !important;
+    #aboutJMDesc p {
+        margin-right: -600px !important;
         font-size: 20px;
     }
 
@@ -593,12 +851,16 @@ color: black;
       }
 
       #aboutJMDesc {
-        padding-left: 400px !important;
+        padding-left: 500px !important;
     }
 
-    .col-7 p {
-        margin-right: -290% !important;
+    #aboutJMDesc p {
+        margin-right: -680px !important;
         font-size: 20px;
+    }
+
+    .secondDescCol p {
+        margin-right: -520px !important;
     }
 
     .dividingLineSmall {
@@ -612,6 +874,11 @@ color: black;
         font-size: 20px;
         margin-left: 30%;
         margin-right: -54%;
+    }
+
+    .recentProjectsList {
+        list-style-type: none;
+        margin-left: 44%;
     }
   }
 
