@@ -348,6 +348,7 @@ color: black;
 }
 
 @media (max-width: 1600px) {
+
     .dividingLine {
         background-color: black;
         height: 2px;
@@ -373,7 +374,7 @@ color: black;
     .dividingLineSmall {
         background-color: black;
         height: 2px;
-        margin-right:5%;
+        margin-right: -50% !important;
         margin-top: -10px;
     }
 
@@ -419,6 +420,10 @@ color: black;
 
     #aboutJMDesc {
         padding-left: 295px !important;
+    }
+
+    .dividingLineSmall {
+        margin-right: -78% !important;
     }
 
     #aboutJMDesc p {
@@ -472,6 +477,10 @@ color: black;
 
     #aboutJMDesc {
         padding-left: 305px !important;
+    }
+
+    .dividingLineSmall {
+        margin-right: -110% !important;
     }
 
     #aboutJMDesc p {
@@ -561,6 +570,10 @@ color: black;
 
     #aboutJMDesc {
         padding-left: 360px !important;
+    }
+
+    .dividingLineSmall {
+        margin-right: -205% !important;
     }
 
     #aboutJMDesc p {
@@ -666,7 +679,7 @@ color: black;
     .dividingLineSmall {
         background-color: black;
         height: 2px;
-        margin-right: -81%;
+        margin-right: -501% !important;
         margin-top: -20px;
     }
 
@@ -687,6 +700,10 @@ color: black;
 
       #aboutJMDesc {
         padding-left: 450px !important;
+    }
+
+    .dividingLineSmall {
+        margin-right: -905% !important;
     }
 
     #aboutJMDesc p {
@@ -730,6 +747,10 @@ color: black;
 
     #aboutJMDesc {
         padding-left: 470px !important;
+    }
+
+    .dividingLineSmall {
+        margin-right: -420px !important;
     }
 
     #aboutJMDesc p {
