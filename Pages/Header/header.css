@@ -1,25 +1,38 @@
 
 
+.mainHeaderRow {
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px !important;
+}
+.sigMarg {
+    height: 200px !important;
+    align-items: center !important;
+    text-align: right;
+}
+
 .JMsignature {
-    margin-left: -30px;
+    margin-top: -30px !important;
+ 
+    scale: 100%;
 }
 
 .headerNamePhoto {
-    font-family: 'Poiret One', cursive;
-    font-size: 60px;
-    margin-left: 105px !important;
+    margin-top: -80px !important;
 }
 
 #headerNamePhotoRow {
-    margin-top: -120px !important;
+    height: 100px !important;
+    margin-top: 80px !important;
 }
 
 #nameCol {
-    margin-top: 12px;
-    float: left;
-    width: 30%;
-    margin-left: 20%;
+   height: 240px !important;
     font-weight: 800;
+}
+
+.navCol {
+    margin-right: -100px !important;
 }
 
 .headerContainer a {
@@ -33,15 +46,17 @@
     font-size: bold;
 }
 
+.navItems {
+    margin-left: -20px !important;
+}
+
+.navItems a {
+    font-weight: 900;
+}
+
 .navItems a:hover {
     color: rgb(188, 67, 19) !important;
     transform: scale(1.25) !important;
-}
-
-.navItems {
-    padding-top: 30px;
-    width: 50%;
-    margin-left: 47%;
 }
 
 #navTopItems{
@@ -60,7 +75,7 @@ padding-left: 70px;
 /* DYNAMIC DESIGN */
 
 
-@media (max-width: 1740px) {
+/* @media (max-width: 1740px) {
 
     .JMsignature {
         margin-left: 30px !important;
@@ -221,4 +236,4 @@ padding-left: 70px;
     .JMsignature {
         margin-left: 45px;
     }
-}
+} */

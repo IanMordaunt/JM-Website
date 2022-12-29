@@ -1,22 +1,30 @@
 
 
-.homeMainImage {
-    margin-top: -200px !important;
+.homeMainImageContainer {
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
 }
 
 .homeCover {
-    width: 90%;
+    width: 100%;
     text-align: center;
     justify-content: center;
+    text-align: top;
+    padding-bottom: 50px;
 }
 
-.coverCol {
-    text-align: center;
+.coverCol img{
+    text-align: top;
     justify-content: center;
+    text-align: center;
+    margin-top: -140px !important;
 }
 
 .homeMainImage {
-    scale: 65%;
+    scale: 80%;
+    margin-top: -80px;
+    margin-bottom: 50px;
 }
 
 .dividingLine {
@@ -78,11 +86,6 @@
     padding-top: 40px;
 }
 
-.JMSignature {
-    font-weight: bolder;
-    font-size: 26px !important;
-}
-
 .projectList {
     justify-content: center;
     align-items: center;
@@ -142,10 +145,27 @@ color: black;
     font-weight: 400;
 }
 
+.footerContainer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 45px;
+}
+
+.footerRow {
+    justify-content: center;
+    
+}
+ 
+  .footerContainer a {
+      color: rgb(188, 67, 19) !important;
+  }
+
 
 /* DYNAMIC DESIGN */
 
-@media (max-width: 2100px) {
+/* @media (max-width: 2100px) {
     
     #aboutJMDesc {
         padding-left: 120px !important;
@@ -749,8 +769,12 @@ color: black;
         padding-left: 470px !important;
     }
 
+    #aboutJMDesc h2 {
+        margin-right: -320px;
+    }
+
     .dividingLineSmall {
-        margin-right: -420px !important;
+        margin-right: -560px !important;
     }
 
     #aboutJMDesc p {
@@ -863,7 +887,7 @@ color: black;
 
   @media (max-width: 1000px) {
 
-    .dividingLine {
+    .dividingLine {8
           background-color: black;
           height: 2px;
           width: 124% !important;
@@ -887,7 +911,7 @@ color: black;
     .dividingLineSmall {
         background-color: black;
         height: 2px;
-        margin-right: -312%;
+        margin-right: -650px !important;
         margin-top: -20px;
     }
 
@@ -909,4 +933,4 @@ color: black;
 
 
 
-
+ */
