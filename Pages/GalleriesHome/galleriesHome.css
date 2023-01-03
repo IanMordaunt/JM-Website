@@ -1,12 +1,4 @@
 
-.modelCommentsHeader h2 {
-    margin-left: 44%;
-    padding-top: 5%;
-    font-family: 'Poiret One' !important;
-    font-size: 55px;
-    font-weight: bold;
-    color: rgb(188, 67, 19) !important; 
-  }
 
   .headerContent {
   text-align: center;
@@ -52,10 +44,17 @@
     /* padding: 18px; */
     height: 450px !important;
   }
-  .col-md-4 {
+  /* .col-md-4 {
+    width: 450px !important; 
+    margin-left: 45px; 
+  } */
+
+  .projectCol {
     width: 450px !important; 
     margin-left: 45px; 
   }
+
+
 
   .grandmotherTitle a{
     font-size: 30px;
