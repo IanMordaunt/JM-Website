@@ -2,10 +2,14 @@
   margin-top: -110px;
 }
 
+#contactJacksonHeader {
+  width: 100%;
+}
+
 #contactJacksonHeader h2 {
-    margin-left: -10%;
-    margin-top: 60px;
-    padding-top: 10%;
+   justify-content: center;
+   text-align: center;
+    padding-top: 4%;
     font-family: 'Poiret One', cursive;
     font-size: 55px;
     font-weight: bold;
