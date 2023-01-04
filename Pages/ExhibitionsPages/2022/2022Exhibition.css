@@ -45,27 +45,6 @@ margin-top: 140px;
   justify-content: center;
 }
 
-.imageContainer h1 {
-  justify-content: center;
-  text-align: center;
-}
-
-/* EXAMPLE STYLE */
-/* TODO: DELETE ONCE RESOLVED */
-
-.imageContainer11x6-3 .img11x6-3Row{
-  margin-top: -60px;
-}
-
-.imageContainer11x8-5 .img11x8-5Row {
-  margin-top: -20px;
-}
-
-.imageContainer8-5x11 .img8-5x11Row {
-  margin-top: 50px;
-}
-
-/* TODO */
 
 #imageRow1 {
   justify-content: center;
