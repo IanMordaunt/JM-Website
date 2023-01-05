@@ -45,6 +45,10 @@
     margin-top: 50px;
   }
 
+  .ncTitle {
+    margin-bottom: 40px;
+  }
+
   /* TODO */
 
   #imageRow1 {
@@ -121,6 +125,8 @@ text-align: center;
 }
 
 
+
+
     /* IMAGE SIZING */
     .img11x8-5 {
       margin-top: 50px;
@@ -137,7 +143,8 @@ text-align: center;
         .img11x6-3 {
           width: 400px;
           height: 228px;
-          margin-top: 90px;
+          margin-top: 35px;
+          margin-bottom: 35px;
         }
       
 .img11x11 {
