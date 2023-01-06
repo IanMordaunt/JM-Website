@@ -21,40 +21,34 @@
       crossorigin="anonymous"
     />
   </head>
-  <body oncontextmenu="return false">
+  <!-- TODO reactivate right click disable -->
+  <!-- <body oncontextmenu="return false"> -->
     <section>
       <div class="headerContainer">
-        <div class="col" id="nameCol">
-          <div class="row">
-            <img class="JMsignature" src="../../Header/JM-signature-black.JPG"></img>
-          </div>
-          <div class="row" id="headerNamePhotoId">
-            <h2 class="headerNamePhoto">Photography</h2>
-          </div>
+        <div class="row mainHeaderRow">
+        <div class="col-md-4 sigMarg" id="nameCol">
+            <!-- <h2 class="headerName">Jackson L. Morris</h2> -->
+            <img class="JMsignature" src="../../Header/Screenshot 2022-12-28 at 4.25.44 PM.png"></img>
         </div>
         <!-- Site Page Navigation -->
-        <div class="navItems">
+          <div class="col-md-5 navCol">
           <div class="row" id="navTopItems">
-            <div class="col-2">
-              <a href="../../Home/home.html">Home</a>
+            <div class="col-2 navItems">
+              <a href="../../../index.html">Home</a>
             </div>
-            <div class="col-3" id="navItemGalleries">
-              <a href="../../GalleriesHome/galleriesHome.html">Galleries</a>
+            <div class="col-3 navItems" id="navItemGalleries">
+              <a href="../../../Pages/GalleriesHome/galleriesHome.html">Galleries</a>
             </div>
-            <div class="col-4">
-              <a href="../../ModelComments/modelComments.html"
-                >Model Comments</a
-              >
+            <div class="col-5 navItems">
+              <a href="../../../Pages/ModelComments/modelComments.html">Model Comments</a>
             </div>
           </div>
           <div class="row">
-            <div class="col" id="ContactJacksonNav">
-              <a
-                href="../../ContactJackson-ModelingInformation/contactJackson-modelingInformation.html"
-                >Contact Jackson & Modeling Information</a
-              >
+            <div class="col navItems" id="ContactJacksonNav">
+              <a href="../../../Pages/ContactJackson-ModelingInformation/contactJackson-modelingInformation.html">Contact Jackson & Modeling Information</a>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </section>
@@ -65,34 +59,56 @@
       </div>
       <div class="imageGridWrapper">
         <div class="imageContainer">
+           <!-- 8.5 x 11 Image Row -->
           <div class="row" id="imageRow1">
-            <div class="col-md-4">
-                <a href="./Sub-Galleries/figuresWithTreesAndRocks.html">Figures with Trees and Rocks</a>
-               
-                <image class="imageResponsive imageResize img1Row1" src="../../Assets/Sample2 11x8.5 copy.jpg" alt=""><a href="./Sub-Galleries/figuresWithTreesAndRocks.html"></a></image>
-              
+            <div class="col-md-3 imgColCell8-5x11">
+              <image class="imageResponsive imageResize  img8-5x11" src="../../Galleries/EarthResonance/Assets/_DSC5589-8.5x11.jpg" alt=""></image>
             </div>
-            <div class="col-md-4">
-                <a href="./Sub-Galleries/figuresWithTreesAndRocks.html">Earth Resonance</a>
-                <image class="imageResponsive imageResize  img2Row1" src="../../Assets/Sample 8.5x11 copy.jpg" alt=""></image>
-            </div>
-            <div class="col-md-4">
-                <a href="./Sub-Galleries/figuresWithTreesAndRocks.html">I am Stieglitz, too</a>
-                <image class="imageResponsive imageResize img3Row1" src="../../Assets/Sample3 11x6.3 copy.jpg" alt=""></image>
+            <div class="col-md-3 imgColCell8-5x11">
+              <image class="imageResponsive imageResize  img8-5x11" src="../../Galleries/EarthResonance/Assets/_DSC5529-8.5x11.jpg" alt=""></image>
             </div>
           </div>
-          <div class="row" id="imageRow2">
-            <div class="col-md-4">
-                <h5><a>Rodeo</a></h5>
-                <image class="imageResponsive imageResize img1Row1" src="../../Assets/YouGoGirl- 11x11 copy.jpg" alt=""></image>
+          <!-- 11 x 8.5 Image Row -->
+          <div class="row img11x8-5Row" id="imageRow1">
+            <div class="col-md-4 imgColCell11x8-5">
+              <a href="../../Galleries/EarthResonance/Assets/_DSC5556-Pano 11x8.5.jpg"><image class="imageResponsive imageResize img11x8-5" src="../../Galleries/EarthResonance/Assets/_DSC5556-Pano 11x8.5.jpg" alt=""></image></a>
             </div>
-            <div class="col-md-4">
-                <h5><a>Turnover</a></h5>
-                <image class="imageResponsive imageResize img2Row1" src="../../Assets/Sample 8.5x11 copy.jpg" alt=""></image>
+            <div class="col-md-4 imgColCell11x8-5">
+              <a href="../../Galleries/EarthResonance/Assets/_DSC5578-11x8.5.jpg"><image class="imageResponsive imageResize img11x8-5" src="../../Galleries/EarthResonance/Assets/_DSC5578-11x8.5.jpg" alt=""></image></a>
             </div>
-            <div class="col-md-4">
-                <a>Strings and Reeds</a>
-                <image class="imageResponsive imageResize img3Row1" src="../../Assets/Sample3 11x6.3 copy.jpg" alt=""></image>
+            <div class="col-md-4 imgColCell11x8-5">
+              <a href="../../Galleries/EarthResonance/Assets/_DSC561711x8.5.jpg"><image class="imageResponsive imageResize img11x8-5" src="../../Galleries/EarthResonance/Assets/_DSC561711x8.5.jpg" alt=""></image></a>
+            </div>
+          </div>
+           <!-- 11 x 8.5 Image Row -->
+           <div class="row img11x8-5Row" id="imageRow1">
+          
+            <div class="col-md-4 imgColCell11x8-5">
+              <a href="../..//Galleries/EarthResonance/Assets/_DSC5508-11x8.5.jpg"><image class="imageResponsive imageResize img11x8-5" src="../..//Galleries/EarthResonance/Assets/_DSC5508-11x8.5.jpg" alt=""></image></a>
+            </div>
+            <!-- 11 x 8.5 Image Row -->
+           <div class="row img11x8-5Row" id="imageRow1">
+            <div class="col-md-4 imgColCell11x8-5">
+              <a href="../../Galleries/EarthResonance/Assets/_DSC5341 11x8.5.jpg"><image class="imageResponsive imageResize img11x8-5" src="../../Galleries/EarthResonance/Assets/_DSC5341 11x8.5.jpg" alt=""></image></a>
+            </div>
+            <div class="col-md-4 imgColCell11x8-5">
+              <a href="../..//Galleries/EarthResonance/Assets/_DSC5355 11x8.5.jpg"><image class="imageResponsive imageResize img11x8-5" src="../..//Galleries/EarthResonance/Assets/_DSC5355 11x8.5.jpg" alt=""></image></a>
+            </div>
+            <div class="col-md-4 imgColCell11x8-5">
+              <a href="../../Galleries/EarthResonance/Assets/_DSC5362 11x8.5.jpg"><image class="imageResponsive imageResize img11x8-5" src="../../Galleries/EarthResonance/Assets/_DSC5362 11x8.5.jpg" alt=""></image></a>
+            </div>
+          </div>
+            <!-- 11 x 8.5 Image Row -->
+            <div class="row img11x8-5Row" id="imageRow1">
+              <div class="col-md-4 imgColCell11x8-5">
+                <a href="../../Galleries/EarthResonance/Assets/_DSC5461 11x8.5.jpg"><image class="imageResponsive imageResize img11x8-5" src="../../Galleries/EarthResonance/Assets/_DSC5461 11x8.5.jpg" alt=""></image></a>
+              </div>
+              <div class="col-md-4 imgColCell11x8-5">
+                <a href="../..//Galleries/EarthResonance/Assets/_DSC5367 11x8.5.jpg"><image class="imageResponsive imageResize img11x8-5" src="../..//Galleries/EarthResonance/Assets/_DSC5367 11x8.5.jpg" alt=""></image></a>
+              </div>
+              <div class="col-md-4 imgColCell11x8-5">
+                <a href="../../Galleries/EarthResonance/Assets/Earth Res.jpg"><image class="imageResponsive imageResize img11x8-5" src="../../Galleries/EarthResonance/Assets/Earth Res.jpg" alt=""></image></a>
+              </div>
             </div>
           </div>
         </div>

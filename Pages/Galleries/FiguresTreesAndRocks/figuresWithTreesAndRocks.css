@@ -9,11 +9,11 @@
 
   .headerContent {
   text-align: center;
-  margin-top: 140px;
+  margin-top: 60px;
   }
 
   .headerContent h2 {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Poiret One' !important;
     font-size: 75px;
     font-weight: bold;
     color: rgb(188, 67, 19) !important; 

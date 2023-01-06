@@ -8,7 +8,7 @@
 
   .headerContent {
   text-align: center;
-  margin-top: 140px;
+  margin-top: 10px;
   }
 
   .headerContent h2 {
@@ -25,7 +25,7 @@
 }
 
   .imageContainer {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     flex-wrap: wrap;
   }
 
@@ -42,7 +42,7 @@
   }
 
   .imageContainer11x8-5 .img11x8-5Row {
-    margin-top: -20px;
+    /* margin-top: -20px; */
   }
 
   .imageContainer8-5x11 .img8-5x11Row {
@@ -53,16 +53,15 @@
 
   #imageRow1 {
     justify-content: center;
+    align-items: center;
     
   }
 
-  #imageRow2 {
-    justify-content: center;
-    margin-top:100px !important;
-  }
 
   .col-md-4 {
 text-align: center;
+justify-content: center;
+align-items: center;
   }
 
       .col-md-4 a:hover {
