@@ -11,7 +11,6 @@
     text-align: center;
     justify-content: center;
     text-align: top;
-    padding-bottom: 50px;
 }
 
 .coverCol img{
@@ -24,32 +23,35 @@
 .homeMainImage {
     scale: 80%;
     margin-top: -80px;
-    margin-bottom: 50px;
+}
+
+.DividerLine {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 .dividingLine {
     background-color: black;
     height: 2px;
-    width: 70%;
-    margin-left: 19%;
-    margin-top: -180px;
+    width:80%;
 }
 
 .dividingLineSmall {
     background-color: black;
     height: 2px;
-    margin-right: 28.5%;
     margin-top: -10px;
 }
 
-.aboutJMCol {
-   margin-left: 7.5%;
+.aboutJMFirstRow {
+    width: 100%;
+    justify-content: center;
+    
 }
 
-.aboutJM {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+.aboutJMCol {
+  text-align: center;
 }
 
 .aboutJM h2 {
@@ -57,29 +59,6 @@
     margin-right: 330px;
     font-family: Georgia;
     margin-top: -570px;
-}
-
-.aboutJM p {
-    font-family: Georgia;
-    font-size: 23px;
-    margin-top: 30px;
-    margin-left: 65px;
-}
-
-.JMImage {
-
-    margin-right: 100px;
-    padding-left: 222px;
-    margin-top: -10px;
-    margin-bottom: 65px;
-}
-
-#amyKawadlerRow {
-    margin-top: -45px;
-}
-
-.amyKawadler {
-    margin-left: 450px;
 }
 
 .thirdParagraph {
@@ -92,29 +71,23 @@
     align-content: center;
 }
 
-#aboutJMDesc {
-margin-left: 55px;
-    padding-left: 85px;
-}
-
-.col-7 h2 {
-    margin-top: 10px;
-}
-
-.col-6 p {
-    margin-right: 28%;
-    font-size: 20px;
-}
-
-#secondSectionAboutJM {
+.secondSectionAboutJM {
+    width: 100% !important;
     font-size: 20px;
     width: 59%;
     margin-left: 22%;
+    justify-content: center;
+    justify-content: center;
 }
 
-#secondSectionAboutJM p{
-font-size: 20px;
+.secondDescCol p {
+font-size: 17px !important;
+
 }
+
+.secondDescCol  {
+    margin-left: 5% !important; 
+    }
 
 #recentProjects {
     text-align: center;
