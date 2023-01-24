@@ -1,9 +1,28 @@
 
-
-.mainHeaderRow {
+.headerContainer {
     width: 100%;
     justify-content: center;
+}
+.mainHeaderRow {
+    margin-left: 15%;
+    width: 80%;
+    align-items: center;
+    justify-content: center !important;
     margin-top: 50px !important;
+    display: flex;
+    gap: 1rem;
+    text-align: center !important;
+    margin-bottom: 50px;
+}
+
+
+
+.navList {
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 2rem;
+    
 }
 .sigMarg {
     height: 200px !important;
@@ -12,17 +31,7 @@
 }
 
 .JMsignature {
-    margin-top: -30px !important;
     scale: 100%;
-}
-
-.headerNamePhoto {
-    margin-top: -80px !important;
-}
-
-#headerNamePhotoRow {
-    height: 100px !important;
-    margin-top: 80px !important;
 }
 
 #nameCol {
@@ -31,7 +40,7 @@
 }
 
 .navCol {
-    margin-right: -100px !important;
+    text-align: center;
 }
 
 .headerContainer a {
@@ -44,31 +53,11 @@
     align-items: center;
 }
 
-.navItems {
-    margin-left: -20px !important;
-}
-
-.navItems a {
-    /* font-weight: 900; */
-}
-
 .navItems a:hover {
     color: rgb(188, 67, 19) !important;
     transform: scale(1.25) !important;
 }
 
-#navTopItems{
-padding-left: 70px;
-}
-
-#navItemGalleries {
-    padding-left: 25px;
-}
-
-#ContactJacksonNav {
-    padding-left: 85px !important;
-    margin-top: 12px;
-}
 
 /* DYNAMIC DESIGN */
 
