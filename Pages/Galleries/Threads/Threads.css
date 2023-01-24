@@ -21,8 +21,16 @@ margin-top: 15px;
 
 /* IMAGE CONTAINER HEADER AND TOP MARGIN */
 
-.imageContainer {
+#imageRow1 {
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
   margin-top: 60px !important;
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
 }
 
 .imageContainer h1 {
@@ -39,23 +47,6 @@ margin-top: 15px;
 
 /* TODO */
 
-#imageRow1 {
-  justify-content: center;
-  margin-bottom: 20px;
-  flex-wrap: wrap;
-}
-
-#imageRow2 {
-  justify-content: center;
-  margin-top:100px !important;
-}
-
-.col-md-4 {
-text-align: center;
-}
-.col-md-3 {
-  text-align: center;
-}
 
     .col-md-4 a:hover {
       text-decoration: underline rgb(188, 67, 19) !important; 
@@ -83,8 +74,12 @@ text-align: center;
 margin-top: 30px;
 }
 
-/* ROW CELL MARGINS - LEFT AND RIGHT */
+.img11x8-5Row {
+text-align: center;
+}
 
+/* ROW CELL MARGINS - LEFT AND RIGHT */
+/* 
 .imgColCell11x8-5 {
 margin-left: -95px !important;
 margin-right: -95px !important;
@@ -114,7 +109,7 @@ margin-right: -115px !important;
 margin-top: 25px;
 margin-left: -92px !important;
 margin-right: -92px !important;
-}
+} */
 
 
 
