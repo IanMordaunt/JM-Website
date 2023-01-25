@@ -1,3 +1,24 @@
+
+  .mainHeaderRow {
+    margin-left: 10% !important;
+    width: 80%;
+    align-items: center;
+    justify-content: center !important;
+    margin-top: 50px !important;
+    display: flex;
+    gap: 1rem;
+    text-align: center !important;
+    margin-bottom: 50px;
+}
+
+.navList {
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 2rem;
+    
+}
+
 #headerNamePhotoId {
   margin-top: -110px;
 }
