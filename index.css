@@ -45,52 +45,58 @@
 }
 
 .aboutJMFirstRow {
-    width: 100%;
     justify-content: center;
-    
-}
+    margin-bottom: 20px;
+    width: 100%;
+    margin-top: 60px !important;
+    display: flex !important;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
 
 .aboutJMCol {
   text-align: center;
 }
 
-.aboutJM h2 {
-    float: right;
-    margin-right: 330px;
-    font-family: Georgia;
-    margin-top: -570px;
+.aboutJMDesc {
+    width: 40%;
 }
 
-.thirdParagraph {
-    padding-top: 40px;
+.aboutJMDesc p {
+    font-size: 18px;
+}
+
+
+.jmStamp {
+    transform: scale(.4) !important;
+    margin-top: -110px;
+    /* float: right; */
+    margin-left: 50%;
+  }
+
+.aboutJMDesc h2 {
+    text-align: center;
+    font-family: Georgia;
+    margin-top: -4px;
 }
 
 .projectList {
     justify-content: center;
     align-items: center;
     align-content: center;
+    margin-top: -60px;
 }
-
-.secondSectionAboutJM {
-    width: 100% !important;
-    font-size: 20px;
-    width: 59%;
-    margin-left: 22%;
-    justify-content: center;
-    justify-content: center;
-}
-
-.secondDescCol p {
-font-size: 17px !important;
-
-}
-
-.secondDescCol  {
-    margin-left: 5% !important; 
-    }
 
 #recentProjects {
     text-align: center;
+  
+}
+
+.recentProjectsList {
+    list-style: none;
 }
 
 #RProjects {
