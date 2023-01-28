@@ -115,9 +115,12 @@ text-decoration: none !important;
 color: black;
 }
 
+
+
  #Ex2019:hover {
    text-decoration: underline rgb(188, 67, 19) !important;
 }
+
 
 .projectList li {
     font-size: 25px;
