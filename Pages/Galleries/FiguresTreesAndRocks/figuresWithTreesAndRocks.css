@@ -23,6 +23,7 @@
   .headerContent {
   text-align: center;
   margin-top: 60px;
+  justify-content: center;
   }
 
   .headerContent h2 {
@@ -30,6 +31,13 @@
     font-size: 75px;
     font-weight: bold;
     color: rgb(188, 67, 19) !important; 
+  }
+  #titleNote {
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px !important;
   }
 
 /* IMAGE CONTAINER HEADER AND TOP MARGIN */
