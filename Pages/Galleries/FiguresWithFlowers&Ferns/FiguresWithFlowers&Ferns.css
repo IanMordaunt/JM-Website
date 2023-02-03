@@ -39,6 +39,14 @@
     color: rgb(188, 67, 19) !important; 
   }
 
+  #titleNote {
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px !important;
+  }
+
 /* IMAGE CONTAINER HEADER AND TOP MARGIN */
 
 .imageGridWrapper {

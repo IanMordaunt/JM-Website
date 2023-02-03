@@ -46,7 +46,7 @@
 }
 
   .imageContainer {
-    /* margin-top: 50px; */
+    margin-top: -50px;
     flex-wrap: wrap;
   }
 
@@ -75,9 +75,6 @@
     margin-top: -60px;
   }
 
-  .imageContainer11x8-5 .img11x8-5Row {
-    /* margin-top: -20px; */
-  }
 
   .imageContainer8-5x11 .img8-5x11Row {
     margin-top: 50px;
@@ -150,6 +147,23 @@ align-items: center;
     width: 400px;
     height: 400px;
     margin-top: 4px;
+  }
+
+  .projectStatement {
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+    text-align: center;
+    margin-top: 65px !important;
+  }
+
+  .projectStatement h2 {
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 45px !important;
+  }
+
+  .projectStatement p {
+    margin-top: 10px !important;
   }
 
 .footerContainer {
