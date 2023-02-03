@@ -1,7 +1,6 @@
 
-
   .mainHeaderRow {
-    margin-left: 5% !important;
+    margin-left: 7% !important;
     width: 80%;
     align-items: center;
     justify-content: center !important;
@@ -13,6 +12,7 @@
 }
 
 .navList {
+  font-family: 'Poiret One' !important;
     list-style: none;
     flex-wrap: wrap;
     display: flex;
@@ -33,7 +33,7 @@
   }
 
   .headerContent h2 {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Poiret One' !important;
     font-size: 75px;
     font-weight: bold;
     color: rgb(188, 67, 19) !important; 
@@ -68,19 +68,6 @@
     text-align: center;
   }
 
-  /* EXAMPLE STYLE */
-  /* TODO: DELETE ONCE RESOLVED */
-
-  .imageContainer11x6-3 .img11x6-3Row{
-    margin-top: -60px;
-  }
-
-
-  .imageContainer8-5x11 .img8-5x11Row {
-    margin-top: 50px;
-  }
-
-  /* TODO */
 
   #imageRow1 {
     justify-content: center;
@@ -157,7 +144,7 @@ align-items: center;
   }
 
   .projectStatement h2 {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Poiret One' !important;
     font-weight: bold;
     font-size: 45px !important;
   }

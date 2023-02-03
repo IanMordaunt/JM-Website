@@ -160,6 +160,24 @@
     height: 400px;
     margin-top: 4px;
   }
+
+
+  .projectStatement {
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+    text-align: center;
+    margin-top: 65px !important;
+  }
+
+  .projectStatement h2 {
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 45px !important;
+  }
+
+  .projectStatement p {
+    margin-top: 10px !important;
+  }
   
   .footerContainer {
     justify-content: center;
