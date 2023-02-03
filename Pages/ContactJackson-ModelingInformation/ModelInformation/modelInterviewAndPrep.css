@@ -1,8 +1,19 @@
 
 
+.mainHeaderRow {
+    margin-left: 5% !important;
+    width: 80%;
+    align-items: center;
+    justify-content: center !important;
+    margin-top: 50px !important;
+    display: flex;
+    gap: 1rem;
+    text-align: center !important;
+    margin-bottom: 50px;
+}
+
 .headerContent {
     width: 70%;
-    margin-top: 150px;
   text-align: center;
   margin-left: 17%;
 }
