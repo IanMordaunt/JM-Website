@@ -1,0 +1,17 @@
+
+.mainWrap{
+    text-align: center;
+}
+
+.headerSig {
+    scale: 25%;
+    position: relative;
+}
+
+.photoFy {
+    position: absolute;
+    margin-left: 44%;
+    margin-top: -380px;
+    font-family: 'Poiret One';
+    font-weight: 800;
+}
