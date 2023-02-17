@@ -165,14 +165,19 @@
   .projectStatement {
     margin-left: 15% !important;
     margin-right: 15% !important;
-    text-align: center;
+   
     margin-top: 65px !important;
   }
 
   .projectStatement h2 {
+    text-align: center;
     font-family: 'Poiret One', cursive;
     font-weight: bold;
     font-size: 45px !important;
+  }
+
+  .projectStatement h3 {
+    text-align: center;
   }
 
   .projectStatement p {
