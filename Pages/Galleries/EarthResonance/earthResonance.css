@@ -158,6 +158,28 @@ margin-top: 30px;
   margin-top: 4px;
 }
 
+.projectStatement {
+  margin-left: 15% !important;
+  margin-right: 15% !important;
+ 
+  margin-top: 65px !important;
+}
+
+.projectStatement h2 {
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  font-size: 45px !important;
+}
+
+.projectStatement h3 {
+  text-align: center;
+}
+
+.projectStatement p {
+  margin-top: 10px !important;
+}
+
 .footerContainer {
   justify-content: center;
   width: 80%;
