@@ -132,7 +132,7 @@ color: black;
     align-items: center;
     text-align: center;
     font-size: 20px;
-    margin-top: 45px;
+    /* margin-top: 45px; */
 }
 
 .footerRow {

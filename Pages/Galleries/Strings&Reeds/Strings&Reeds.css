@@ -1,15 +1,22 @@
+:root {
+  background-color: rgb(230, 227, 227);
+  }
 
+
+  .headerContainer {
+    background-color: rgb(230, 227, 227);
+  }
 
   .mainHeaderRow {
     margin-left: 7% !important;
     width: 80%;
     align-items: center;
     justify-content: center !important;
-    margin-top: 50px !important;
+    /* margin-top: 50px !important; */
     display: flex;
     gap: 1rem;
     text-align: center !important;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .navList {
@@ -18,21 +25,13 @@
     display: flex;
     gap: 2rem;
     
-}
-
-#headerNamePhotoId {
-    margin-top: -115px;
-  }
-  
-  #headerNamePhotoId {
-    margin-top: -118px;
-  }
+} 
   
   .headerContent {
   text-align: center;
   justify-content: center;
-
-  margin-top: 15px;
+  background-color: rgb(230, 227, 227);
+  /* margin-top: 15px; */
   }
 
   .headerContent h4 {
@@ -56,18 +55,15 @@
   }
   
   /* IMAGE CONTAINER HEADER AND TOP MARGIN */
-  
-  #imageRow1 {
-    justify-content: center;
-    margin-bottom: 20px;
-    width: 100%;
-    margin-top: 60px !important;
-    display: flex !important;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin: 0;
-    padding: 0;
+
+  /* .imageGridWrapper {
+    background-color: lightgray;
+  } */
+
+  .imageContainer {
+    background-color: rgb(230, 227, 227);
   }
+  
   #imageRow1 {
     justify-content: center;
     margin-bottom: 20px;
@@ -91,14 +87,6 @@
   }
   
   /* EXAMPLE STYLE */
-  /* TODO: DELETE ONCE RESOLVED */
-  
-  .ncTitle {
-    margin-bottom: 40px;
-  }
-
-  
-  /* TODO */
   
   
       .col-md-4 a:hover {
@@ -112,6 +100,7 @@
   .imageResize {
     border-style: solid;
     border-color: grey;
+    background-color: white;
     padding: 18px;
   }
   
@@ -130,42 +119,6 @@
   .img11x8-5Row {
   text-align: center;
   }
-  
-  /* ROW CELL MARGINS - LEFT AND RIGHT */
-  /* 
-  .imgColCell11x8-5 {
-  margin-left: -95px !important;
-  margin-right: -95px !important;
-  }
-  
-  .imgColCell11x8-5Two{
-  margin-left: -91px !important;
-  margin-right: -91px !important;
-  }
-  
-  .imgColCell8-5x11 {
-  margin-left: -70px !important;
-  margin-right: -70px !important;
-  }
-  
-  .imgColCell11x6-3 {
-  margin-left: -95px !important;
-  margin-right: -95px !important;
-  }
-  
-  .imgColCell11x11 {
-  margin-left: -115px !important;
-  margin-right: -115px !important;
-  }
-  
-  .img11x11RowTwo .imgColCell11x11 {
-  margin-top: 25px;
-  margin-left: -92px !important;
-  margin-right: -92px !important;
-  } */
-  
-  
-  
   
     /* IMAGE SIZING */
     .img11x8-5 {
@@ -192,13 +145,24 @@
     height: 400px;
     margin-top: 4px;
   }
+
+  .triptic {
+    width: 800px;
+    height: 516px;
+    margin-bottom: 40px;
+  }
+
+  .footerWrapper {
+    background-color: rgb(230, 227, 227);
+  }
   
   .footerContainer {
+    background-color: rgb(230, 227, 227);
     justify-content: center;
     width: 80%;
     font-size: 20px;
     margin-left: 12.25%;
-    margin-top: 35px;
+    /* margin-top: 35px; */
   }
   
   .footerRow {
