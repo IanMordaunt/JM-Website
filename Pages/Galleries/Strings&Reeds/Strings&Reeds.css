@@ -31,7 +31,7 @@
   text-align: center;
   justify-content: center;
   background-color: rgb(230, 227, 227);
-  /* margin-top: 15px; */
+  padding-bottom: 35px;
   }
 
   .headerContent h4 {
@@ -136,8 +136,8 @@
         .img11x6-3 {
           width: 400px;
           height: 228px;
-          margin-top: 35px;
-          margin-bottom: 35px;
+          /* margin-top: 35px; */
+          /* margin-bottom: 35px; */
         }
       
   .img11x11 {
@@ -146,10 +146,14 @@
     margin-top: 4px;
   }
 
+  .pano {
+    width: 800px;
+  }
+
   .triptic {
     width: 800px;
     height: 516px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 
   .footerWrapper {
@@ -162,7 +166,7 @@
     width: 80%;
     font-size: 20px;
     margin-left: 12.25%;
-    /* margin-top: 35px; */
+    padding-top: 45px;
   }
   
   .footerRow {
