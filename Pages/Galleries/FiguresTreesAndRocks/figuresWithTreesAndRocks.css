@@ -16,7 +16,7 @@
     display: flex;
     gap: 1rem;
     text-align: center !important;
-    padding-bottom: 50px;
+    padding-bottom: 50px !important;
 }
 
   .headerContent {
@@ -42,7 +42,7 @@
 /* IMAGE CONTAINER HEADER AND TOP MARGIN */
 
   .imageContainer {
-    padding-top: 50px;      
+    padding-top: 50px;     
     background-color: rgb(230, 227, 227);
   }
 
@@ -64,13 +64,9 @@
     text-align: center;
   }
 
-
-
   #imageRow1 {
     justify-content: center;
-    
   }
-
 
 .imageResize {
     border-style: solid;

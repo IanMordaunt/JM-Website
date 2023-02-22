@@ -1,14 +1,22 @@
+:root {
+  background-color: rgb(230, 227, 227);
+  }
+
+
+  .headerContainer {
+    background-color: rgb(230, 227, 227);
+  }
 
   .mainHeaderRow {
     margin-left: 7% !important;
     width: 80%;
     align-items: center;
     justify-content: center !important;
-    margin-top: 50px !important;
+    /* margin-top: 50px !important; */
     display: flex;
     gap: 1rem;
     text-align: center !important;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .navList {
@@ -19,17 +27,11 @@
     
 }
 
-#headerNamePhotoId {
-  margin-top: -115px;
-}
-
-#headerNamePhotoId {
-  margin-top: -118px;
-}
 
 .headerContent {
 text-align: center;
-margin-top: 50px;
+background-color: rgb(230, 227, 227);
+padding-bottom: 10px;
 }
 
 .headerContent h2 {
@@ -42,14 +44,15 @@ margin-top: 50px;
 /* IMAGE CONTAINER HEADER AND TOP MARGIN */
 
 .imageContainer {
-  margin-top: 50px;
+  padding-top: 10px;
+  background-color: rgb(230, 227, 227);
 }
 
 #imageRow1 {
   justify-content: center;
   margin-bottom: 20px;
   width: 100%;
-  margin-top: 60px !important;
+  margin-top: 30px !important;
   display: flex !important;
   flex-wrap: wrap;
   gap: 1rem;
@@ -63,55 +66,16 @@ margin-top: 50px;
   text-align: center;
 }
 
-/* EXAMPLE STYLE */
-/* TODO: DELETE ONCE RESOLVED */
-
-.imageContainer11x6-3 .img11x6-3Row{
-  margin-top: -60px;
-}
-
-.imageContainer11x8-5 .img11x8-5Row {
-  margin-top: -20px;
-}
-
-.imageContainer8-5x11 .img8-5x11Row {
-  margin-top: 50px;
-}
-
-.ncTitle {
-  margin-bottom: 40px;
-}
-
-/* TODO */
 
 #imageRow1 {
   justify-content: center;
   
 }
 
-#imageRow2 {
-  justify-content: center;
-  margin-top:100px !important;
-}
-
-.col-md-4 {
-text-align: center;
-}
-.col-md-3 {
-  text-align: center;
-}
-
-    .col-md-4 a:hover {
-      text-decoration: underline rgb(188, 67, 19) !important; 
-    }
-
-    .col-md-4 h5:hover {
-      text-decoration: rgb(188, 67, 19) !important; 
-    }
-
 .imageResize {
   border-style: solid;
   border-color: grey;
+  background-color: white;
   padding: 18px;
 }
 
@@ -124,7 +88,7 @@ text-align: center;
 
 .img8-5x11Row {
 text-align: center;
-margin-top: 30px;
+margin-top: 10px;
 }
 
 /* ROW CELL MARGINS - LEFT AND RIGHT */
@@ -158,11 +122,15 @@ margin-top: 30px;
   margin-top: 4px;
 }
 
+.projectStatementWrapper {
+  background-color: rgb(230, 227, 227);
+}
+
 .projectStatement {
   margin-left: 15% !important;
   margin-right: 15% !important;
- 
-  margin-top: 65px !important;
+  padding-top: 65px !important;
+  background-color: rgb(230, 227, 227);
 }
 
 .projectStatement h2 {
@@ -180,12 +148,41 @@ margin-top: 30px;
   margin-top: 10px !important;
 }
 
+.galleriesBtn {
+  padding-top: 40px;
+  background-color: rgb(230, 227, 227);
+  font-family: 'Poiret One' !important;
+  text-align: center;
+  text-decoration: none !important;
+  text-decoration-style: none !important;
+  font-size: 35px;
+  color: rgb(188, 67, 19) !important;
+
+}
+
+.galleriesBtn a {
+  text-decoration: none !important;
+  text-decoration-style: none !important;
+  font-size: 40px;
+  color: black;
+  font-weight: 100;
+}
+
+.galleriesBtn a:hover  {
+  color: rgb(188, 67, 19) !important;
+}
+
+.footerWrapper {
+  background-color: rgb(230, 227, 227);
+}
+
 .footerContainer {
+  background-color: rgb(230, 227, 227);
   justify-content: center;
   width: 80%;
   font-size: 20px;
   margin-left: 12.25%;
-  margin-top: 35px;
+  padding-top: 35px;
 }
 
 .footerRow {
