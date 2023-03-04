@@ -1,14 +1,22 @@
+:root {
+  background-color: rgb(230, 227, 227);
+  }
+
+
+  .headerContainer {
+    background-color: rgb(230, 227, 227);
+  }
 
   .mainHeaderRow {
     margin-left: 7% !important;
     width: 80%;
     align-items: center;
     justify-content: center !important;
-    margin-top: 50px !important;
+    /* margin-top: 50px !important; */
     display: flex;
     gap: 1rem;
     text-align: center !important;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .navList {
@@ -16,14 +24,10 @@
     flex-wrap: wrap;
     display: flex;
     gap: 2rem;
-    
-}
-
-#headerNamePhotoId {
-  margin-top: -110px;
 }
 
 #contactJacksonHeader {
+  background-color: rgb(230, 227, 227);
   width: 100%;
 }
 
@@ -36,33 +40,43 @@
     color: rgb(188, 67, 19) !important; 
   }
 
+  .contactContent {
+    background-color: rgb(230, 227, 227);
+  }
+
   .contactContent .row {
-    margin-top: 50px;
+    background-color: rgb(230, 227, 227);
+    padding-top: 50px;
   }
 
   #contactContentCol1 {
+    background-color: rgb(230, 227, 227);
     font-size: 30px;
     font-weight: bold;
     margin-left: 20%;
   }
 
   .col-6 h2{
+    background-color: rgb(230, 227, 227);
     margin-left: 15%;
     font-size: 35px;
   }
 
   .col-6 p{
+    background-color: rgb(230, 227, 227);
     margin-left: 15.5%;
     font-size: 28px;
   }
 
   .col-6 li{
+    background-color: rgb(230, 227, 227);
     margin-left: 15%;
     font-size: 27px;
     margin-right: 15%;
   }
 
   #links  li {
+    background-color: rgb(230, 227, 227);
     color: rgb(188, 67, 19) !important; 
     font-size: 30px;
     font-weight: bold;
@@ -70,11 +84,13 @@
   }
 
   #links a {
+    background-color: rgb(230, 227, 227);
     color: rgb(188, 67, 19) !important;
     text-decoration: none; 
   }
 
   #links p {
+    background-color: rgb(230, 227, 227);
     margin-left: 41%;
     margin-right: 2%;
     font-size: 30px;
@@ -82,12 +98,14 @@
   }
 
   #bottomPoints li{
+    background-color: rgb(230, 227, 227);
     margin-left: 51px;
 margin-right: 25.5%;
   }
 
 
   #bottomPoints p{
+    background-color: rgb(230, 227, 227);
     margin-left: 53px;
 margin-right: 25.5%;
 font-weight: 600;
