@@ -1,35 +1,36 @@
 
+:root {
+  background-color: rgb(230, 227, 227);
+  }
+
+
+  .headerContainer {
+    background-color: rgb(230, 227, 227);
+  }
+
   .mainHeaderRow {
     margin-left: 7% !important;
     width: 80%;
     align-items: center;
     justify-content: center !important;
-    margin-top: 50px !important;
+    /* margin-top: 50px !important; */
     display: flex;
     gap: 1rem;
     text-align: center !important;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .navList {
     list-style: none;
     flex-wrap: wrap;
     display: flex;
-    gap: 2rem;
-    
+    gap: 2rem;  
 }
-
-#headerNamePhotoId {
-    margin-top: -115px;
-  }
-  
-  #headerNamePhotoId {
-    margin-top: -118px;
-  }
   
   .headerContent {
   text-align: center;
-  margin-top: 15px;
+  background-color: rgb(230, 227, 227);
+  padding-top: 10px;
   }
   
   .headerContent h2 {
@@ -53,12 +54,18 @@
     justify-content: center;
     margin-bottom: 20px;
     width: 100%;
-    margin-top: 60px !important;
+    margin-top: 30px !important;
     display: flex !important;
     flex-wrap: wrap;
     gap: 1rem;
     margin: 0;
     padding: 0;
+    text-align: center;
+  }
+
+  .imageContainer {
+    padding-top: 10px;
+    background-color: rgb(230, 227, 227);
   }
   
   .imageContainer h1 {
@@ -66,28 +73,10 @@
     text-align: center;
   }
   
-  /* EXAMPLE STYLE */
-  /* TODO: DELETE ONCE RESOLVED */
-  
-  .ncTitle {
-    margin-bottom: 40px;
-  }
-
-  
-  /* TODO */
-  
-  
-      .col-md-4 a:hover {
-        text-decoration: underline rgb(188, 67, 19) !important; 
-      }
-  
-      .col-md-4 h5:hover {
-        text-decoration: rgb(188, 67, 19) !important; 
-      }
-  
   .imageResize {
     border-style: solid;
     border-color: grey;
+    background-color: white;
     padding: 18px;
   }
   
@@ -100,7 +89,7 @@
   
   .img8-5x11Row {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 10px;
   }
   
   .img11x8-5Row {
@@ -108,40 +97,6 @@
   }
   
   /* ROW CELL MARGINS - LEFT AND RIGHT */
-  /* 
-  .imgColCell11x8-5 {
-  margin-left: -95px !important;
-  margin-right: -95px !important;
-  }
-  
-  .imgColCell11x8-5Two{
-  margin-left: -91px !important;
-  margin-right: -91px !important;
-  }
-  
-  .imgColCell8-5x11 {
-  margin-left: -70px !important;
-  margin-right: -70px !important;
-  }
-  
-  .imgColCell11x6-3 {
-  margin-left: -95px !important;
-  margin-right: -95px !important;
-  }
-  
-  .imgColCell11x11 {
-  margin-left: -115px !important;
-  margin-right: -115px !important;
-  }
-  
-  .img11x11RowTwo .imgColCell11x11 {
-  margin-top: 25px;
-  margin-left: -92px !important;
-  margin-right: -92px !important;
-  } */
-  
-  
-  
   
     /* IMAGE SIZING */
     .img11x8-5 {
@@ -168,13 +123,41 @@
     height: 400px;
     margin-top: 4px;
   }
+
+  .galleriesBtn {
+    padding-top: 40px;
+    background-color: rgb(230, 227, 227);
+    font-family: 'Poiret One' !important;
+    text-align: center;
+    text-decoration: none !important;
+    text-decoration-style: none !important;
+    font-size: 35px;
+    color: rgb(188, 67, 19) !important;
+  }
+  
+  .galleriesBtn a {
+    text-decoration: none !important;
+    text-decoration-style: none !important;
+    font-size: 40px;
+    color: black;
+    font-weight: 100;
+  }
+  
+  .galleriesBtn a:hover  {
+    color: rgb(188, 67, 19) !important;
+  }
+
+  .footerWrapper {
+    background-color: rgb(230, 227, 227);
+  }
   
   .footerContainer {
+    background-color: rgb(230, 227, 227);
     justify-content: center;
     width: 80%;
     font-size: 20px;
     margin-left: 12.25%;
-    margin-top: 35px;
+    padding-top: 35px;
   }
   
   .footerRow {
