@@ -24,9 +24,7 @@
     flex-wrap: wrap;
     display: flex;
     gap: 2rem;
-    
 }
-
 
 .headerContent {
 text-align: center;
