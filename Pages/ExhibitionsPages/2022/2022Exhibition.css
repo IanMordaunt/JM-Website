@@ -1,21 +1,24 @@
+:root {
+  background-color: rgb(230, 227, 227);
+  }
 
+
+  .headerContainer {
+    padding-bottom: -10px;
+    background-color: rgb(230, 227, 227);
+  }
 
   .mainHeaderRow {
     margin-left: 6% !important;
     width: 80%;
     align-items: center;
     justify-content: center !important;
-    margin-top: 50px !important;
+    /* margin-top: 50px !important; */
     display: flex;
     gap: 1rem;
     text-align: center !important;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
-
-#headerNamePhotoId {
-  margin-top: -115px;
-}
-
 
 .modelCommentsHeader h2 {
   margin-left: 44%;
@@ -26,13 +29,10 @@
   color: rgb(188, 67, 19) !important; 
 }
 
-#headerNamePhotoId {
-  margin-top: -118px;
-}
-
 .headerContent {
 text-align: center;
-
+background-color: rgb(230, 227, 227);
+padding-bottom: 10px;
 }
 
 .headerContent h3 {
@@ -50,20 +50,23 @@ text-align: center;
 /* IMAGE CONTAINER HEADER AND TOP MARGIN */
 
 .imageContainer {
-  margin-top: 50px;
+  padding-top: 10px;
+  background-color: rgb(230, 227, 227);
 }
 
 #imageRow1 {
+  background-color: rgb(230, 227, 227);
   justify-content: center;
   text-align: center;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   width: 100%;
-  margin-top: 60px !important;
+  padding-top: 60px !important;
   display: flex !important;
   flex-wrap: wrap;
   gap: 1rem;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .imageMainRow {
@@ -74,28 +77,11 @@ text-align: center;
 
 #imageRow1 {
   justify-content: center;
-  
 }
-
-#imageRow2 {
-  justify-content: center;
-  margin-top:100px !important;
-}
-
-.col-md-3 {
-text-align: center;
-}
-
-    .col-md-4 a:hover {
-      text-decoration: underline rgb(188, 67, 19) !important; 
-    }
-
-    .col-md-4 h5:hover {
-      text-decoration: rgb(188, 67, 19) !important; 
-    }
 
 .imageResize {
   border-style: solid;
+  background-color: white;
   border-color: grey;
   padding: 18px;   
 }
@@ -109,7 +95,7 @@ text-align: center;
 
 .img8-5x11Row {
 text-align: center;
-margin-top: 30px;
+padding-top: 30px;
 }
 
 /* ROW CELL MARGINS - LEFT AND RIGHT */
@@ -140,12 +126,17 @@ margin-top: 30px;
   margin-top: 4px;
 }
 
+.footerWrapper {
+  background-color: rgb(230, 227, 227);
+}
+
 .footerContainer {
+  background-color: rgb(230, 227, 227);
   justify-content: center;
   width: 80%;
   font-size: 20px;
   margin-left: 12.25%;
-  margin-top: 35px;
+  padding-top: 35px;
 }
 
 .footerRow {
