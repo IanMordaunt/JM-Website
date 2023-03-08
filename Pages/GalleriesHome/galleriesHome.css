@@ -1,6 +1,16 @@
+:root {
+  background-color: rgb(230, 227, 227);
+  }
+
+
+  .headerContainer {
+    background-color: rgb(230, 227, 227);
+  }
 
   .headerContent {
+    background-color: rgb(230, 227, 227);
   text-align: center;
+  padding-bottom: 10px;
   }
 
   .mainHeaderRow {
@@ -12,7 +22,7 @@
     display: flex;
     gap: 1rem;
     text-align: center !important;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .navList {
@@ -25,7 +35,7 @@
 
 #imageRow1 {
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 60px !important;
   width: 100%;
   margin-top: 60px !important;
   display: flex !important;
@@ -49,13 +59,15 @@
   }
 
   .imageContainerTest {
-    margin-top: 50px;
+    background-color: rgb(230, 227, 227);
+    padding-top: 50px;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
 
   .imageRow1 {
+    background-color: rgb(230, 227, 227);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -78,13 +90,27 @@
 
   .projectCol {
     width: 450px !important; 
+    background-color: white;
     margin-left: 45px; 
+  }
+
+  .title {
+    background-color: rgb(230, 227, 227);
+  }
+
+  .titleH3 {
+    background-color: rgb(230, 227, 227);
+   
   }
 
   .grandmotherTitle a{
     font-size: 30px;
     color: grey !important;
     text-decoration: none;
+  }
+
+  #grandmaRow {
+    background-color: rgb(230, 227, 227);
   }
 
   .favCereal {
@@ -144,13 +170,18 @@
     height: 400px;
     margin-top: 4px;
   }
+
+  .footerWrapper {
+    background-color: rgb(230, 227, 227);
+  }
    
 .footerContainer {
+  background-color: rgb(230, 227, 227);
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 20px;
-    margin-top: 45px;
+    padding-top: 45px;
 }
 
 .footerRow {
