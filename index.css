@@ -1,6 +1,14 @@
-
+:root {
+    background-color: rgb(230, 227, 227);
+    }
+  
+  
+    .headerContainer {
+      background-color: rgb(230, 227, 227);
+    }
 
 .homeMainImageContainer {
+    margin-top: 50px;
     justify-content: center;
     align-items: center; 
     text-align: center;
