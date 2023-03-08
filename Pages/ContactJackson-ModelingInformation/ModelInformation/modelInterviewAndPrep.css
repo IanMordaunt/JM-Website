@@ -1,4 +1,11 @@
-
+:root {
+    background-color: rgb(230, 227, 227);
+    }
+  
+  
+    .headerContainer {
+      background-color: rgb(230, 227, 227);
+    }
 
 .mainHeaderRow {
     margin-left: 6% !important;
@@ -9,13 +16,14 @@
     display: flex;
     gap: 1rem;
     text-align: center !important;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .headerContent {
-    width: 70%;
+    background-color: rgb(230, 227, 227);
   text-align: center;
-  margin-left: 17%;
+  padding-bottom: 10px;
+
 }
 
 .headerContent h4 {
@@ -34,6 +42,11 @@
 
 #headerNamePhotoId {
     margin-top: -95px;
+}
+
+.experienceContent {
+    background-color: rgb(230, 227, 227);
+    padding-bottom: 10px;
 }
 
 .experienceContent p{
@@ -57,4 +70,27 @@ margin-right: 15%;
 
 .backToContact {
     text-align: center;
+    background-color: rgb(230, 227, 227);
 }
+
+
+.footerWrapper {
+    background-color: rgb(230, 227, 227);
+  }
+    
+    .footerContainer {
+      justify-content: center;
+      width: 80%;
+      font-size: 20px;
+      margin-left: 12.25%;
+      padding-top: 35px;
+    }
+    
+    .footerRow {
+      justify-content: center;
+      
+    }
+    
+    .footerContainer a {
+        color: rgb(188, 67, 19) !important;
+    }
