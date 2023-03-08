@@ -111,6 +111,32 @@ margin-right: 25.5%;
 font-weight: 600;
   }
 
+  .mainWrapper {
+    background-color: rgb(230, 227, 227);
+  }
+
+  .footerWrapper {
+    background-color: rgb(230, 227, 227);
+  }
+   
+.footerContainer {
+  background-color: rgb(230, 227, 227);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 45px;
+}
+
+.footerRow {
+    justify-content: center;
+    
+}
+ 
+  .footerContainer a {
+      color: rgb(188, 67, 19) !important;
+  }
+
   
 
   
