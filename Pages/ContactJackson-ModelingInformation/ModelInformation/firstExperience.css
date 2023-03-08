@@ -1,3 +1,11 @@
+:root {
+    background-color: rgb(230, 227, 227);
+    }
+  
+  
+    .headerContainer {
+      background-color: rgb(230, 227, 227);
+    }
 
 .mainHeaderRow {
     margin-left: 5% !important;
@@ -8,13 +16,13 @@
     display: flex;
     gap: 1rem;
     text-align: center !important;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .headerContent {
-    width: 70%;
+    background-color: rgb(230, 227, 227);
   text-align: center;
-  margin-left: 17%;
+  padding-bottom: 10px;
 }
 
 .headerContent h4 {
@@ -36,6 +44,11 @@
     margin-top: -95px;
 }
 
+.experienceContent {
+    background-color: rgb(230, 227, 227);
+    padding-bottom: 10px;
+}
+
 .experienceContent p{
 text-indent: 20px;
 font-size: 22px;
@@ -43,8 +56,16 @@ margin-left: 20%;
 margin-right: 15%;
 }
 
+.backToContactWrapper {
+    background-color: rgb(230, 227, 227);
+}
+
+.backToContact {
+    background-color: rgb(230, 227, 227);
+}
+
 .backToContact a {
-   
+    background-color: rgb(230, 227, 227);
     font-family: "Birthstone", cursive;
     font-size: 50px;
     color: rgb(188, 67, 19) !important;
@@ -53,3 +74,24 @@ margin-right: 15%;
 .backToContact {
     text-align: center;
 }
+
+.footerWrapper {
+    background-color: rgb(230, 227, 227);
+  }
+    
+    .footerContainer {
+      justify-content: center;
+      width: 80%;
+      font-size: 20px;
+      margin-left: 12.25%;
+      padding-top: 35px;
+    }
+    
+    .footerRow {
+      justify-content: center;
+      
+    }
+    
+    .footerContainer a {
+        color: rgb(188, 67, 19) !important;
+    }
