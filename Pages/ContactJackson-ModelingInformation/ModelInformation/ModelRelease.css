@@ -1,32 +1,39 @@
-
+:root {
+    background-color: rgb(230, 227, 227);
+    }
+  
+  
+    .headerContainer {
+        background-color: rgb(230, 227, 227);
+    }
 
 .mainHeaderRow {
     margin-left: 5% !important;
     width: 80%;
     align-items: center;
     justify-content: center !important;
-    margin-top: 50px !important;
+    /* margin-top: 50px !important; */
     display: flex;
     gap: 1rem;
     text-align: center !important;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .headerContent {
-    width: 70%;
+    background-color: rgb(230, 227, 227);
   text-align: center;
-  margin-left: 17%;
+ padding-bottom: 10px;
 }
 
 .headerContent h4 {
     font-size: 35px !important;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     color: black;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
 }
 
 .headerContent hr {
-   margin-bottom: 30px;
+   padding-bottom: 30px;
 }
 
 .headerContent p {
@@ -45,7 +52,13 @@
 
 #initialArea {
     font-weight: 700;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
+}
+
+.notesContent {
+    background-color: rgb(230, 227, 227);
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 .notesContent p{
@@ -53,6 +66,10 @@
  margin-left: 21%;
  font-size: 22px;
  text-align: center;
+}
+
+.backToContact {
+    background-color: rgb(230, 227, 227);
 }
 
 .backToContact a {
@@ -65,3 +82,24 @@
 .backToContact {
     text-align: center;
 }
+
+.footerWrapper {
+    background-color: rgb(230, 227, 227);
+  }
+    
+    .footerContainer {
+      justify-content: center;
+      width: 80%;
+      font-size: 20px;
+      margin-left: 12.25%;
+      padding-top: 35px;
+    }
+    
+    .footerRow {
+      justify-content: center;
+      
+    }
+    
+    .footerContainer a {
+        color: rgb(188, 67, 19) !important;
+    }
