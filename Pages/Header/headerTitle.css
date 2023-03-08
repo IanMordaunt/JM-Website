@@ -17,3 +17,11 @@
     font-family: 'Poiret One';
     font-weight: 800;
 }
+
+.jackson {
+    background-color: rgb(230, 227, 227);
+}
+
+.jacksonWord {
+    transform: scale(.4);
+}
