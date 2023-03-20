@@ -61,6 +61,11 @@ margin-right: 15%;
     text-decoration: none;
 }
 
+.dayHikeTitle {
+    text-align:  center;
+    font-size: 40px;
+}
+
 .backToContact a {
    
     font-family: "Birthstone", cursive;
