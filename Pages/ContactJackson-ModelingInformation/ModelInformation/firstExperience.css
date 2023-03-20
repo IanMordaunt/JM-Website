@@ -47,13 +47,14 @@
 .experienceContent {
     background-color: rgb(230, 227, 227);
     padding-bottom: 10px;
+ padding-left: 20%;
+padding-right: 20%;
 }
 
 .experienceContent p{
-text-indent: 20px;
+text-indent: 10px;
 font-size: 22px;
-margin-left: 20%;
-margin-right: 15%;
+
 }
 
 .backToContactWrapper {
