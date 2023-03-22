@@ -80,7 +80,7 @@
 
 .jmStamp {
     transform: scale(.7) !important;
-    margin-top: -70px;
+    margin-top: -40px;
     /* float: right; */
     margin-left: 70%;
   }
@@ -115,6 +115,12 @@
     color: rgb(188, 67, 19) !important;
 }
 
+#member {
+    font-family: 'Poiret One', cursive;
+    font-size: 27px;
+text-decoration: none !important;
+color: black;
+}
 
 .projectList #Ex2019 {
     font-family: 'Poiret One', cursive;
