@@ -2,9 +2,21 @@
     background-color: rgb(230, 227, 227);
     }
   
-  
     .headerContainer {
       background-color: rgb(230, 227, 227);
+    }
+
+    .sigMarg {
+        margin-right: -50px;
+    }
+
+    .JMsignature {
+        /* margin-right: 140px; */
+        transform: scale(.9);
+    }
+
+    .navItems a {
+        font-size: 30px !important;
     }
 
 .homeMainImageContainer {
