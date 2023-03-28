@@ -144,6 +144,10 @@
     margin-top: 10px !important;
   }
 
+  .stateRow p {
+    text-indent: 40px;
+  }  
+
 
 .galleriesBtn {
   padding-top: 40px;
