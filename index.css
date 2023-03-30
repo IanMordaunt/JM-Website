@@ -89,6 +89,13 @@
     font-size: 18px;
 }
 
+.disclaimer {
+    margin-top: 0px !important;
+    float: right;
+    margin-top: 150px;
+    font-size: 15px;
+}
+
 
 .jmStamp {
     transform: scale(.7) !important;
@@ -169,6 +176,11 @@ color: black;
  
   .footerContainer a {
       color: rgb(188, 67, 19) !important;
+  }
+
+  .createdBy p{
+    text-align: center;
+    color: grey;
   }
 
 
