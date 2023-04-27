@@ -81,6 +81,8 @@
 
 .aboutJMContainer {
     background-color: rgb(230, 227, 227);
+    text-align: center;
+    
 }
 
 .aboutJMFirstRow {
@@ -106,7 +108,7 @@
 }
 
 .aboutJMDesc {
-    margin-right: 10%;
+    margin-right: 15%;
     width: 40%;
 }
 
