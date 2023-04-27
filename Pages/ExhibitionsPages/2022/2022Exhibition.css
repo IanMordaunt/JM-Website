@@ -98,6 +98,11 @@ text-align: center;
 padding-top: 30px;
 }
 
+.imageTitle {
+  color: grey;
+  font-size: 30px !important;
+}
+
 /* ROW CELL MARGINS - LEFT AND RIGHT */
 
 

@@ -81,6 +81,11 @@ padding-bottom: 10px;
     text-align: center;
   }
 
+  .imageTitle {
+    color: grey;
+    font-size: 30px !important;
+  }
+
   /* TODO */
 
   #imageRow1 {
