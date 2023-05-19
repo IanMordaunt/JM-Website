@@ -156,7 +156,6 @@
 }
 
 #RProjects {
-    text-decoration: underline;
     font-weight: bold;
     font-size: 44px !important;
     font-family: 'Poiret One', cursive;
@@ -171,6 +170,7 @@ color: black;
 }
 
 .projectList #Ex2019 {
+    text-decoration: underline !important;
     font-family: 'Poiret One', cursive;
     font-size: 27px;
 text-decoration: none !important;
