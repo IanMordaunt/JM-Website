@@ -184,7 +184,8 @@ color: black;
 }
 
 
-.projectList li {
+.projectList li #Ex2019 {
+    text-decoration: underline !important;
     font-size: 25px;
     font-weight: 400;
 }
