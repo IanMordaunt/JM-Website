@@ -170,7 +170,7 @@ color: black;
 }
 
 .projectList #Ex2019 {
-    text-decoration: underline !important;
+    /* text-decoration: underline !important; */
     font-family: 'Poiret One', cursive;
     font-size: 27px;
 text-decoration: none !important;
