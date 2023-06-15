@@ -103,6 +103,8 @@
     background-color: white;
     padding: 18px;
   }
+
+  
   
   .imageResize:hover {
     transform: scale(1.75);
@@ -148,6 +150,10 @@
 
   .pano {
     width: 800px;
+  }
+
+  .pano:hover {
+    margin-left: -30px !important;
   }
 
   .triptic {
