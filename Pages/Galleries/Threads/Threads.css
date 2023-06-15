@@ -87,6 +87,14 @@ padding-top: 10px;
   margin-left: 30%;
 }
 
+.leftImage:hover {
+  margin-right: -100px !important;
+}
+
+.rightImage:hover {
+  margin-left: -100px !important;
+}
+
 .img8-5x11Row {
 text-align: center;
 margin-top: 10px;
